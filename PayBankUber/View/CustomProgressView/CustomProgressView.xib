@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomProgressView" customModule="NSDL" customModuleProvider="target">
+            <connections>
+                <outlet property="emptyIcon" destination="7cS-Qz-yoE" id="gfw-b2-OaE"/>
+                <outlet property="mainView" destination="vqC-D1-2eX" id="fQt-os-a7Y"/>
+                <outlet property="titleLabel" destination="RvV-cq-gGA" id="HA1-FB-dF6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqC-D1-2eX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="progressLoader.gif" translatesAutoresizingMaskIntoConstraints="NO" id="7cS-Qz-yoE">
+                            <rect key="frame" x="93" y="217" width="134" height="134"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="7cS-Qz-yoE" secondAttribute="height" multiplier="1:1" id="jRq-DX-5qa"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvV-cq-gGA">
+                            <rect key="frame" x="93.5" y="346" width="134" height="0.0"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="RvV-cq-gGA" firstAttribute="bottom" secondItem="7cS-Qz-yoE" secondAttribute="bottom" constant="-5" id="8fu-lI-St1"/>
+                        <constraint firstItem="RvV-cq-gGA" firstAttribute="width" secondItem="7cS-Qz-yoE" secondAttribute="width" id="LF7-57-Syg"/>
+                        <constraint firstItem="RvV-cq-gGA" firstAttribute="centerX" secondItem="vqC-D1-2eX" secondAttribute="centerX" id="NcO-of-Czc"/>
+                        <constraint firstItem="7cS-Qz-yoE" firstAttribute="centerY" secondItem="vqC-D1-2eX" secondAttribute="centerY" id="WX0-Fb-z1B"/>
+                        <constraint firstItem="7cS-Qz-yoE" firstAttribute="centerX" secondItem="vqC-D1-2eX" secondAttribute="centerX" id="zjP-Kw-A2H"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vqC-D1-2eX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="XMm-yC-iy9"/>
+                <constraint firstItem="vqC-D1-2eX" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="cly-yn-iDU"/>
+                <constraint firstItem="vqC-D1-2eX" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="gN1-jk-0df"/>
+                <constraint firstItem="7cS-Qz-yoE" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.42" id="lHh-5t-Qxr"/>
+                <constraint firstItem="vqC-D1-2eX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ubG-1k-NJD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-277" y="57"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="progressLoader.gif" width="118" height="113"/>
+    </resources>
+</document>

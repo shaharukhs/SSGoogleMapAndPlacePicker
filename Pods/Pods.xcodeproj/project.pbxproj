@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085EB71D7B74B7D0654F6282B6304785 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 473688427E142377581B62B8CB6A7864 /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CCB405603E5D8B9E3B474943320AFE4 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDE1537BCA0EC083B0615CC5ED77D8 /* AsyncButton.swift */; };
+		164F0F91F578B1D0D3CE59E82BDE7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFF5528EFD86715B72823DF14310D44 /* Images.xcassets */; };
+		1B6E8FCB23C590A03612DEAEA259C544 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84575BE97DBC6DF8FE1906DDA584D2 /* DesignableLabel.swift */; };
+		20080E54BAE959039CE3070312328878 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5611CF5D42DFCAFCA3746BD80D94F68 /* DesignableImageView.swift */; };
+		23B55C2F761AFB36273C1D7ED4A17E59 /* Pods-PayBankUber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C64090813C17497F4340EE4A8E267 /* Pods-PayBankUber-dummy.m */; };
+		28CB7C2B7D6F020EB11DD6FD01AF25A6 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060827BB99692C33BBE5EB4511B8097F /* SpringTextView.swift */; };
+		3016CD163A8123A470D3C615ED7325B7 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2EE630DC32EB6FBF11EEE58EA3D6E /* SpringImageView.swift */; };
+		3FE24FF2625368456B2E32BE8530F739 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A56E99CDAD2D3CA21A2A7378869D7B /* SoundPlayer.swift */; };
+		4AD963BDD01185792226E2E3F158CA48 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25506EC6ED48C7B7444ED323176848B /* AutoTextView.swift */; };
+		578D3F5E9CBA7C3B25953EBD86094884 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177DF101153386F65310A0A6E361491 /* UnwindSegue.swift */; };
+		58A9AC520BC4B6CCCB4779B44845FC1D /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74964F603446BA6F8B5174A047D54FFB /* DesignableButton.swift */; };
+		685354A3E66A021B0A732FCCAD3EFCE2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4008F3C65D8B096AE93AEE00B48B80C /* ImageLoader.swift */; };
+		69C91D3D82041BD42C687F03A34E8D44 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC295C909699C2D7CBC0FAE1CCF55454 /* SpringAnimation.swift */; };
+		77B67E69F02FF638634B6C20420C60D2 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614DC31DC32CB9D30679A235E1FD23E /* SpringButton.swift */; };
+		79227E0E46B668FFB9AF53B9F66C593D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		905DBD1FBC56B8A29642BEAD960844E0 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DDD8367F5B246DF03A2EEEFF631729 /* DesignableTextField.swift */; };
+		96672EFA8BD12051C54CD92ADD738BC2 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96BA2332184F97CDF45A5D03FEA6EE /* DesignableView.swift */; };
+		9EC79650638C4E8E78FFF49F5E5AB897 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A69B17690A607B4A5A67E7ECDA55A7 /* TransitionManager.swift */; };
+		A13309A34DB5B30BA48EC558AB044725 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6B3D7BA0E04F919ADFB41E1B6BFB8A1 /* LoadingView.xib */; };
+		A177CA46D13C690AB76C478EFC31D037 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86666080058FCFD6796C1C77314B99 /* SpringView.swift */; };
+		A228BBEDC5C84F122066249981A1DF2E /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A02E4ADE6EE2D8AFE84FEF2F66A147 /* DesignableTextView.swift */; };
+		A96ED58E3E4B55E7E33E33D50EE4C2DF /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3183B613B435CB0D05C0AB2F53AD83D /* Spring.swift */; };
+		BBFB190FCF3FAD4FA5AF3B4E025CD58A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85E946CA22BD3C46870DFFA83FDAA6A /* AsyncImageView.swift */; };
+		BC5B65F6BC5A3A3CFE2F8E54A7C9DDEE /* Pods-PayBankUber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EBE9CEE3BF9E0B3ADA1C988833F216 /* Pods-PayBankUber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC177AE0922F11CE21CD6E9485C693D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C493EF1DE5C39107A4725A889FF6CE5C /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DEFF02E4344F6918666FEE6069AC5 /* KeyboardLayoutConstraint.swift */; };
+		C89DCF7F7EEAFA5751F2F3A4BCFEB8DA /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B96A1B4D3A35B6B55C6DFCDB0788F0 /* SpringTextField.swift */; };
+		CC0DBEB18C075E50C14C025E85EE8E29 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1B2B682D92C2A1871F67B82EE22A /* DesignableTabBarController.swift */; };
+		D521E7CCF77F388245C8A5F33B2BD111 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B961FD049C9526B3478FF3178861271 /* Misc.swift */; };
+		D688F7AAF20A950020F038F11D8F9451 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9952B51EA0790BA0D10AA8E96DA330A /* TransitionZoom.swift */; };
+		DC00377F7BDD81978BDE4899EE3B9261 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D1864D0071EAC851012D718B643BD /* LoadingView.swift */; };
+		EA0E4F44A478293AF99297EDB4E8A7EE /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBFC4E12003ACBB45EAA9EB3D30F34A /* SpringLabel.swift */; };
+		ED4D846446762DFC0114A2BA0925D237 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEAD0A3E10B53CCF78E057DE2F1D0F6 /* BlurView.swift */; };
+		EDD241F55E9778921F0B0E25AB46855A /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3BB870E174E8B2186D91BA202C77B /* Spring-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2026D09BBA959C4BB80E765799E78151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E33FBE4B03DDF3FC20A3FDE072EF912;
+			remoteInfo = Spring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021DEFF02E4344F6918666FEE6069AC5 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		060827BB99692C33BBE5EB4511B8097F /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		071CD533A9646B3BD7CB89CA9C1020A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11406CEBD43A3436405D10ECDF6FE98F /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		136C2EEAFA341B59776A1647AE28C97A /* Pods-PayBankUber-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayBankUber-frameworks.sh"; sourceTree = "<group>"; };
+		15DDD8367F5B246DF03A2EEEFF631729 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		1614DC31DC32CB9D30679A235E1FD23E /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		1BB3BB870E174E8B2186D91BA202C77B /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		2E62E3D82711D7F09CE493C86A651924 /* Pods-PayBankUber-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayBankUber-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31FDE1537BCA0EC083B0615CC5ED77D8 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		33A69B17690A607B4A5A67E7ECDA55A7 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		33B96A1B4D3A35B6B55C6DFCDB0788F0 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		3A9D1864D0071EAC851012D718B643BD /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		3B961FD049C9526B3478FF3178861271 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		473688427E142377581B62B8CB6A7864 /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		4F86666080058FCFD6796C1C77314B99 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		5174427A85DBADF02493EB6C6A38B464 /* Pods-PayBankUber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PayBankUber.modulemap"; sourceTree = "<group>"; };
+		5B3392E48B50E2A02D29FA2FA14E34B9 /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Spring.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69EAD86A3FFDFD135E114248408FFEF5 /* Pods-PayBankUber-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayBankUber-acknowledgements.plist"; sourceTree = "<group>"; };
+		74964F603446BA6F8B5174A047D54FFB /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		74EBE9CEE3BF9E0B3ADA1C988833F216 /* Pods-PayBankUber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayBankUber-umbrella.h"; sourceTree = "<group>"; };
+		7902C35B7998BF428D0A5F9BA796A96B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D5952B5A25051680063C11813778029 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		9AD39722D8367157E945F808FCD2E9B8 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		A5A2EE630DC32EB6FBF11EEE58EA3D6E /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		AE8DDFD4006C9BBB7CF6B6B10ABD3879 /* Pods_PayBankUber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayBankUber.framework; path = "Pods-PayBankUber.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF93D19864E397D4BE43DFF88AC15961 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B3A02E4ADE6EE2D8AFE84FEF2F66A147 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		BF84258227D53D60FE4DDA5FCCF1B8B2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C3183B613B435CB0D05C0AB2F53AD83D /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		C6839B114B0E2284D7AB814B53056BF7 /* Pods-PayBankUber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayBankUber.release.xcconfig"; sourceTree = "<group>"; };
+		CAFF5528EFD86715B72823DF14310D44 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		CC295C909699C2D7CBC0FAE1CCF55454 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		D37A96E038FA3D4D99C255FAB6656D95 /* Pods-PayBankUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayBankUber.debug.xcconfig"; sourceTree = "<group>"; };
+		D4008F3C65D8B096AE93AEE00B48B80C /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		DA6ADA2525CC9A58407CE2D21D8DF8C6 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB84575BE97DBC6DF8FE1906DDA584D2 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		DD92C11AD88A5A4FB0AC52404C27868E /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		DD96BA2332184F97CDF45A5D03FEA6EE /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		DF0C64090813C17497F4340EE4A8E267 /* Pods-PayBankUber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayBankUber-dummy.m"; sourceTree = "<group>"; };
+		E177DF101153386F65310A0A6E361491 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		E5611CF5D42DFCAFCA3746BD80D94F68 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		E85E946CA22BD3C46870DFFA83FDAA6A /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		E8DF1B2B682D92C2A1871F67B82EE22A /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		E9952B51EA0790BA0D10AA8E96DA330A /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		EDEAD0A3E10B53CCF78E057DE2F1D0F6 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		EEBFC4E12003ACBB45EAA9EB3D30F34A /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		F0A56E99CDAD2D3CA21A2A7378869D7B /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		F1ABCD71FC9E48FB9BB70AD26E47D858 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		F25506EC6ED48C7B7444ED323176848B /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		F3B45B0F53E7DEB84B47A4387B01453C /* Pods-PayBankUber-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayBankUber-resources.sh"; sourceTree = "<group>"; };
+		F6B3D7BA0E04F919ADFB41E1B6BFB8A1 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BCA6F7D7A4A606619E43FF57C1D842D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79227E0E46B668FFB9AF53B9F66C593D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AD77D6C058710D10A292F0029224C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC177AE0922F11CE21CD6E9485C693D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0548B621D02F232E7BA84E7591CFF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF84258227D53D60FE4DDA5FCCF1B8B2 /* GoogleMaps.framework */,
+				F1ABCD71FC9E48FB9BB70AD26E47D858 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A26A08F2FFA185B5421D60DC2811CFC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				461F5C52BF8AA2DA8D3A2E38B8F2C1EB /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		33DA7443CAC81246BB2A89881C3B14A2 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				0D0548B621D02F232E7BA84E7591CFF7 /* Frameworks */,
+				E10A3ECDE6FB12E0E68FD9F6FD50D583 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		461F5C52BF8AA2DA8D3A2E38B8F2C1EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF93D19864E397D4BE43DFF88AC15961 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48A0FBA2E1A47EAA1D132347A6EFAE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DDFD4006C9BBB7CF6B6B10ABD3879 /* Pods_PayBankUber.framework */,
+				DA6ADA2525CC9A58407CE2D21D8DF8C6 /* Spring.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5457C85CBEA6B1C7AD52FD9C64DA08FB /* Pods-PayBankUber */ = {
+			isa = PBXGroup;
+			children = (
+				7902C35B7998BF428D0A5F9BA796A96B /* Info.plist */,
+				5174427A85DBADF02493EB6C6A38B464 /* Pods-PayBankUber.modulemap */,
+				2E62E3D82711D7F09CE493C86A651924 /* Pods-PayBankUber-acknowledgements.markdown */,
+				69EAD86A3FFDFD135E114248408FFEF5 /* Pods-PayBankUber-acknowledgements.plist */,
+				DF0C64090813C17497F4340EE4A8E267 /* Pods-PayBankUber-dummy.m */,
+				136C2EEAFA341B59776A1647AE28C97A /* Pods-PayBankUber-frameworks.sh */,
+				F3B45B0F53E7DEB84B47A4387B01453C /* Pods-PayBankUber-resources.sh */,
+				74EBE9CEE3BF9E0B3ADA1C988833F216 /* Pods-PayBankUber-umbrella.h */,
+				D37A96E038FA3D4D99C255FAB6656D95 /* Pods-PayBankUber.debug.xcconfig */,
+				C6839B114B0E2284D7AB814B53056BF7 /* Pods-PayBankUber.release.xcconfig */,
+			);
+			name = "Pods-PayBankUber";
+			path = "Target Support Files/Pods-PayBankUber";
+			sourceTree = "<group>";
+		};
+		56673D265988EE5A05A2DCDEBD4A7DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6247DCE07FE61792B375C8F4FE841 /* GoogleMaps */,
+				D75A891AC872D72CCAAFDCBA66F0B5D2 /* GooglePlaces */,
+				6460C5198661E44F26CFC5F90F5C8B3F /* Spring */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6460C5198661E44F26CFC5F90F5C8B3F /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				31FDE1537BCA0EC083B0615CC5ED77D8 /* AsyncButton.swift */,
+				E85E946CA22BD3C46870DFFA83FDAA6A /* AsyncImageView.swift */,
+				F25506EC6ED48C7B7444ED323176848B /* AutoTextView.swift */,
+				EDEAD0A3E10B53CCF78E057DE2F1D0F6 /* BlurView.swift */,
+				74964F603446BA6F8B5174A047D54FFB /* DesignableButton.swift */,
+				E5611CF5D42DFCAFCA3746BD80D94F68 /* DesignableImageView.swift */,
+				DB84575BE97DBC6DF8FE1906DDA584D2 /* DesignableLabel.swift */,
+				E8DF1B2B682D92C2A1871F67B82EE22A /* DesignableTabBarController.swift */,
+				15DDD8367F5B246DF03A2EEEFF631729 /* DesignableTextField.swift */,
+				B3A02E4ADE6EE2D8AFE84FEF2F66A147 /* DesignableTextView.swift */,
+				DD96BA2332184F97CDF45A5D03FEA6EE /* DesignableView.swift */,
+				D4008F3C65D8B096AE93AEE00B48B80C /* ImageLoader.swift */,
+				021DEFF02E4344F6918666FEE6069AC5 /* KeyboardLayoutConstraint.swift */,
+				3A9D1864D0071EAC851012D718B643BD /* LoadingView.swift */,
+				3B961FD049C9526B3478FF3178861271 /* Misc.swift */,
+				F0A56E99CDAD2D3CA21A2A7378869D7B /* SoundPlayer.swift */,
+				C3183B613B435CB0D05C0AB2F53AD83D /* Spring.swift */,
+				CC295C909699C2D7CBC0FAE1CCF55454 /* SpringAnimation.swift */,
+				1614DC31DC32CB9D30679A235E1FD23E /* SpringButton.swift */,
+				A5A2EE630DC32EB6FBF11EEE58EA3D6E /* SpringImageView.swift */,
+				EEBFC4E12003ACBB45EAA9EB3D30F34A /* SpringLabel.swift */,
+				33B96A1B4D3A35B6B55C6DFCDB0788F0 /* SpringTextField.swift */,
+				060827BB99692C33BBE5EB4511B8097F /* SpringTextView.swift */,
+				4F86666080058FCFD6796C1C77314B99 /* SpringView.swift */,
+				33A69B17690A607B4A5A67E7ECDA55A7 /* TransitionManager.swift */,
+				E9952B51EA0790BA0D10AA8E96DA330A /* TransitionZoom.swift */,
+				E177DF101153386F65310A0A6E361491 /* UnwindSegue.swift */,
+				8B7048FF2E0081FD930DF904D940E490 /* Resources */,
+				BFE813324A52BCDA324034DF9E4B9FEB /* Support Files */,
+			);
+			name = Spring;
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				56673D265988EE5A05A2DCDEBD4A7DCD /* Pods */,
+				48A0FBA2E1A47EAA1D132347A6EFAE91 /* Products */,
+				F88F64F3046B85A025C9867C03FBCAC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7048FF2E0081FD930DF904D940E490 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAFF5528EFD86715B72823DF14310D44 /* Images.xcassets */,
+				F6B3D7BA0E04F919ADFB41E1B6BFB8A1 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE813324A52BCDA324034DF9E4B9FEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				071CD533A9646B3BD7CB89CA9C1020A3 /* Info.plist */,
+				5B3392E48B50E2A02D29FA2FA14E34B9 /* Spring.modulemap */,
+				94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */,
+				1BB3BB870E174E8B2186D91BA202C77B /* Spring-dummy.m */,
+				DD92C11AD88A5A4FB0AC52404C27868E /* Spring-prefix.pch */,
+				473688427E142377581B62B8CB6A7864 /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		C8C8F16B76A4965D9D6620B74291C037 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11406CEBD43A3436405D10ECDF6FE98F /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6B6247DCE07FE61792B375C8F4FE841 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1A26A08F2FFA185B5421D60DC2811CFC /* Base */,
+				33DA7443CAC81246BB2A89881C3B14A2 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		D75A891AC872D72CCAAFDCBA66F0B5D2 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				F24FA86BF316774E30DB302DF65EB170 /* Frameworks */,
+				C8C8F16B76A4965D9D6620B74291C037 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		E10A3ECDE6FB12E0E68FD9F6FD50D583 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AD39722D8367157E945F808FCD2E9B8 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F24FA86BF316774E30DB302DF65EB170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5952B5A25051680063C11813778029 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F88F64F3046B85A025C9867C03FBCAC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5457C85CBEA6B1C7AD52FD9C64DA08FB /* Pods-PayBankUber */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A9E9598506CA56280611374BFEA6182 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5B65F6BC5A3A3CFE2F8E54A7C9DDEE /* Pods-PayBankUber-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE0920262A78340B8B331AA9275C459 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085EB71D7B74B7D0654F6282B6304785 /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E33FBE4B03DDF3FC20A3FDE072EF912 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139C21E7E426CF9F88CEF5BFB84428FC /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				8E3EFDB4371729FEC18FB6F63BF0FCB2 /* Sources */,
+				C18AD77D6C058710D10A292F0029224C /* Frameworks */,
+				3F7DED15419BADC3A70EF176C8A2E336 /* Resources */,
+				9FE0920262A78340B8B331AA9275C459 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = DA6ADA2525CC9A58407CE2D21D8DF8C6 /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4824FE249A395E6EF4C157653E133C4 /* Pods-PayBankUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7887B45A9BC1663B5AC6ED6462CB8667 /* Build configuration list for PBXNativeTarget "Pods-PayBankUber" */;
+			buildPhases = (
+				BDA16A3ED85445AC99F1132444D05C86 /* Sources */,
+				5BCA6F7D7A4A606619E43FF57C1D842D /* Frameworks */,
+				8A9E9598506CA56280611374BFEA6182 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630A45F4F8B0178246045A7E5DB3AF31 /* PBXTargetDependency */,
+			);
+			name = "Pods-PayBankUber";
+			productName = "Pods-PayBankUber";
+			productReference = AE8DDFD4006C9BBB7CF6B6B10ABD3879 /* Pods_PayBankUber.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 48A0FBA2E1A47EAA1D132347A6EFAE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4824FE249A395E6EF4C157653E133C4 /* Pods-PayBankUber */,
+				3E33FBE4B03DDF3FC20A3FDE072EF912 /* Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7DED15419BADC3A70EF176C8A2E336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164F0F91F578B1D0D3CE59E82BDE7D81 /* Images.xcassets in Resources */,
+				A13309A34DB5B30BA48EC558AB044725 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3EFDB4371729FEC18FB6F63BF0FCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCB405603E5D8B9E3B474943320AFE4 /* AsyncButton.swift in Sources */,
+				BBFB190FCF3FAD4FA5AF3B4E025CD58A /* AsyncImageView.swift in Sources */,
+				4AD963BDD01185792226E2E3F158CA48 /* AutoTextView.swift in Sources */,
+				ED4D846446762DFC0114A2BA0925D237 /* BlurView.swift in Sources */,
+				58A9AC520BC4B6CCCB4779B44845FC1D /* DesignableButton.swift in Sources */,
+				20080E54BAE959039CE3070312328878 /* DesignableImageView.swift in Sources */,
+				1B6E8FCB23C590A03612DEAEA259C544 /* DesignableLabel.swift in Sources */,
+				CC0DBEB18C075E50C14C025E85EE8E29 /* DesignableTabBarController.swift in Sources */,
+				905DBD1FBC56B8A29642BEAD960844E0 /* DesignableTextField.swift in Sources */,
+				A228BBEDC5C84F122066249981A1DF2E /* DesignableTextView.swift in Sources */,
+				96672EFA8BD12051C54CD92ADD738BC2 /* DesignableView.swift in Sources */,
+				685354A3E66A021B0A732FCCAD3EFCE2 /* ImageLoader.swift in Sources */,
+				C493EF1DE5C39107A4725A889FF6CE5C /* KeyboardLayoutConstraint.swift in Sources */,
+				DC00377F7BDD81978BDE4899EE3B9261 /* LoadingView.swift in Sources */,
+				D521E7CCF77F388245C8A5F33B2BD111 /* Misc.swift in Sources */,
+				3FE24FF2625368456B2E32BE8530F739 /* SoundPlayer.swift in Sources */,
+				EDD241F55E9778921F0B0E25AB46855A /* Spring-dummy.m in Sources */,
+				A96ED58E3E4B55E7E33E33D50EE4C2DF /* Spring.swift in Sources */,
+				69C91D3D82041BD42C687F03A34E8D44 /* SpringAnimation.swift in Sources */,
+				77B67E69F02FF638634B6C20420C60D2 /* SpringButton.swift in Sources */,
+				3016CD163A8123A470D3C615ED7325B7 /* SpringImageView.swift in Sources */,
+				EA0E4F44A478293AF99297EDB4E8A7EE /* SpringLabel.swift in Sources */,
+				C89DCF7F7EEAFA5751F2F3A4BCFEB8DA /* SpringTextField.swift in Sources */,
+				28CB7C2B7D6F020EB11DD6FD01AF25A6 /* SpringTextView.swift in Sources */,
+				A177CA46D13C690AB76C478EFC31D037 /* SpringView.swift in Sources */,
+				9EC79650638C4E8E78FFF49F5E5AB897 /* TransitionManager.swift in Sources */,
+				D688F7AAF20A950020F038F11D8F9451 /* TransitionZoom.swift in Sources */,
+				578D3F5E9CBA7C3B25953EBD86094884 /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA16A3ED85445AC99F1132444D05C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B55C2F761AFB36273C1D7ED4A17E59 /* Pods-PayBankUber-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630A45F4F8B0178246045A7E5DB3AF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = 3E33FBE4B03DDF3FC20A3FDE072EF912 /* Spring */;
+			targetProxy = 2026D09BBA959C4BB80E765799E78151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		96EE14C0582CF9A82212AAF35FD79CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A33BA6BEEEFAAC80D84B9757D1DC6F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEE05AD14EF32533961F6C70722F8AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6839B114B0E2284D7AB814B53056BF7 /* Pods-PayBankUber.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayBankUber/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayBankUber/Pods-PayBankUber.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PayBankUber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8FE3F1FD8E28599283D54027556A98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37A96E038FA3D4D99C255FAB6656D95 /* Pods-PayBankUber.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayBankUber/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayBankUber/Pods-PayBankUber.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PayBankUber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139C21E7E426CF9F88CEF5BFB84428FC /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EE14C0582CF9A82212AAF35FD79CDA /* Debug */,
+				A33BA6BEEEFAAC80D84B9757D1DC6F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7887B45A9BC1663B5AC6ED6462CB8667 /* Build configuration list for PBXNativeTarget "Pods-PayBankUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FE3F1FD8E28599283D54027556A98A /* Debug */,
+				BEE05AD14EF32533961F6C70722F8AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
