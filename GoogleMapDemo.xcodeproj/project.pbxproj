@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD4233E34CB9ADC7C21A99E /* Pods_GoogleMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5C98CE54D899F1B244A577 /* Pods_GoogleMapDemo.framework */; };
+		C2D84A9E1FAAEA6800F488E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D84A9D1FAAEA6800F488E2 /* AppDelegate.swift */; };
+		C2D84AA01FAAEA6800F488E2 /* UberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D84A9F1FAAEA6800F488E2 /* UberHomeViewController.swift */; };
+		C2D84AA61FAAEA6800F488E2 /* PayBankUber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2D84AA41FAAEA6800F488E2 /* PayBankUber.xcdatamodeld */; };
+		C2D84AA81FAAEA6800F488E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D84AA71FAAEA6800F488E2 /* Assets.xcassets */; };
+		C2D84AAB1FAAEA6800F488E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D84AA91FAAEA6800F488E2 /* LaunchScreen.storyboard */; };
+		C2D84AB31FAAEAD900F488E2 /* UberHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D84AB21FAAEAD900F488E2 /* UberHomeViewController.xib */; };
+		F208E8801FAB3E720071DB9F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F208E87F1FAB3E720071DB9F /* Info.plist */; };
+		F25493DA1FAC6923003D6973 /* PlacePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25493D81FAC6923003D6973 /* PlacePickerViewController.swift */; };
+		F25493DB1FAC6923003D6973 /* PlacePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25493D91FAC6923003D6973 /* PlacePickerViewController.xib */; };
+		F25493DF1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25493DD1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift */; };
+		F25493E01FAC6DE9003D6973 /* PlacePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25493DE1FAC6DE9003D6973 /* PlacePickerTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21D6416341B0A4C9EFD66DA7 /* Pods-GoogleMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C2D84A9A1FAAEA6800F488E2 /* GoogleMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2D84A9D1FAAEA6800F488E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2D84A9F1FAAEA6800F488E2 /* UberHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberHomeViewController.swift; sourceTree = "<group>"; };
+		C2D84AA51FAAEA6800F488E2 /* PayBankUber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayBankUber.xcdatamodel; sourceTree = "<group>"; };
+		C2D84AA71FAAEA6800F488E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2D84AAA1FAAEA6800F488E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2D84AB21FAAEAD900F488E2 /* UberHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UberHomeViewController.xib; sourceTree = "<group>"; };
+		DC5C98CE54D899F1B244A577 /* Pods_GoogleMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1276CB4E7017D1E2369A3D0 /* Pods-GoogleMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F208E87F1FAB3E720071DB9F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25493D81FAC6923003D6973 /* PlacePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePickerViewController.swift; sourceTree = "<group>"; };
+		F25493D91FAC6923003D6973 /* PlacePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacePickerViewController.xib; sourceTree = "<group>"; };
+		F25493DD1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePickerTableViewCell.swift; sourceTree = "<group>"; };
+		F25493DE1FAC6DE9003D6973 /* PlacePickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacePickerTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2D84A971FAAEA6800F488E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD4233E34CB9ADC7C21A99E /* Pods_GoogleMapDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907066309A0877A055CED833 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C98CE54D899F1B244A577 /* Pods_GoogleMapDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E57FC7127B3ADAE7521F98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21D6416341B0A4C9EFD66DA7 /* Pods-GoogleMapDemo.debug.xcconfig */,
+				F1276CB4E7017D1E2369A3D0 /* Pods-GoogleMapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2D84A911FAAEA6800F488E2 = {
+			isa = PBXGroup;
+			children = (
+				C2D84A9C1FAAEA6800F488E2 /* GoogleMapDemo */,
+				C2D84A9B1FAAEA6800F488E2 /* Products */,
+				B0E57FC7127B3ADAE7521F98 /* Pods */,
+				907066309A0877A055CED833 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2D84A9B1FAAEA6800F488E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84A9A1FAAEA6800F488E2 /* GoogleMapDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2D84A9C1FAAEA6800F488E2 /* GoogleMapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84AB71FAAF49A00F488E2 /* AppDelegate */,
+				C2D84AB61FAAF49300F488E2 /* Model */,
+				C2D84AB51FAAF48700F488E2 /* View */,
+				C2D84AB41FAAF47F00F488E2 /* Controller */,
+				C2D84AB91FAAF4B800F488E2 /* Source */,
+				C2D84ABA1FAAF4DC00F488E2 /* CoreData */,
+				F208E87F1FAB3E720071DB9F /* Info.plist */,
+			);
+			path = GoogleMapDemo;
+			sourceTree = "<group>";
+		};
+		C2D84AB41FAAF47F00F488E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84AB81FAAF4AA00F488E2 /* UberHomeViewController */,
+				F25493D71FAC6903003D6973 /* PlacePickerViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2D84AB51FAAF48700F488E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F25493DC1FAC6DCA003D6973 /* PlacePickerTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2D84AB61FAAF49300F488E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2D84AB71FAAF49A00F488E2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84A9D1FAAEA6800F488E2 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C2D84AB81FAAF4AA00F488E2 /* UberHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84A9F1FAAEA6800F488E2 /* UberHomeViewController.swift */,
+				C2D84AB21FAAEAD900F488E2 /* UberHomeViewController.xib */,
+			);
+			path = UberHomeViewController;
+			sourceTree = "<group>";
+		};
+		C2D84AB91FAAF4B800F488E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84AA71FAAEA6800F488E2 /* Assets.xcassets */,
+				C2D84AA91FAAEA6800F488E2 /* LaunchScreen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C2D84ABA1FAAF4DC00F488E2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C2D84AA41FAAEA6800F488E2 /* PayBankUber.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F25493D71FAC6903003D6973 /* PlacePickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F25493D81FAC6923003D6973 /* PlacePickerViewController.swift */,
+				F25493D91FAC6923003D6973 /* PlacePickerViewController.xib */,
+			);
+			path = PlacePickerViewController;
+			sourceTree = "<group>";
+		};
+		F25493DC1FAC6DCA003D6973 /* PlacePickerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F25493DD1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift */,
+				F25493DE1FAC6DE9003D6973 /* PlacePickerTableViewCell.xib */,
+			);
+			path = PlacePickerTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D84A991FAAEA6800F488E2 /* GoogleMapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D84AAF1FAAEA6800F488E2 /* Build configuration list for PBXNativeTarget "GoogleMapDemo" */;
+			buildPhases = (
+				8A347BA8FFF61EABC513A235 /* [CP] Check Pods Manifest.lock */,
+				C2D84A961FAAEA6800F488E2 /* Sources */,
+				C2D84A971FAAEA6800F488E2 /* Frameworks */,
+				C2D84A981FAAEA6800F488E2 /* Resources */,
+				C2E463CB00AF7E38DE6F1255 /* [CP] Embed Pods Frameworks */,
+				76FEB45A6F6B9144296BF669 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapDemo;
+			productName = PayBankUber;
+			productReference = C2D84A9A1FAAEA6800F488E2 /* GoogleMapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2D84A921FAAEA6800F488E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Ascracom.ascratech;
+				TargetAttributes = {
+					C2D84A991FAAEA6800F488E2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C2D84A951FAAEA6800F488E2 /* Build configuration list for PBXProject "GoogleMapDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2D84A911FAAEA6800F488E2;
+			productRefGroup = C2D84A9B1FAAEA6800F488E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D84A991FAAEA6800F488E2 /* GoogleMapDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2D84A981FAAEA6800F488E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D84AAB1FAAEA6800F488E2 /* LaunchScreen.storyboard in Resources */,
+				F25493DB1FAC6923003D6973 /* PlacePickerViewController.xib in Resources */,
+				C2D84AB31FAAEAD900F488E2 /* UberHomeViewController.xib in Resources */,
+				F208E8801FAB3E720071DB9F /* Info.plist in Resources */,
+				C2D84AA81FAAEA6800F488E2 /* Assets.xcassets in Resources */,
+				F25493E01FAC6DE9003D6973 /* PlacePickerTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76FEB45A6F6B9144296BF669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A347BA8FFF61EABC513A235 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E463CB00AF7E38DE6F1255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UberRides/UberRides.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UberRides.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2D84A961FAAEA6800F488E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25493DA1FAC6923003D6973 /* PlacePickerViewController.swift in Sources */,
+				C2D84AA01FAAEA6800F488E2 /* UberHomeViewController.swift in Sources */,
+				C2D84A9E1FAAEA6800F488E2 /* AppDelegate.swift in Sources */,
+				C2D84AA61FAAEA6800F488E2 /* PayBankUber.xcdatamodeld in Sources */,
+				F25493DF1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2D84AA91FAAEA6800F488E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2D84AAA1FAAEA6800F488E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2D84AAD1FAAEA6800F488E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2D84AAE1FAAEA6800F488E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2D84AB01FAAEA6800F488E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D6416341B0A4C9EFD66DA7 /* Pods-GoogleMapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UECYSF7WKH;
+				INFOPLIST_FILE = "$(SRCROOT)/GoogleMapDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascratech.googlemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2D84AB11FAAEA6800F488E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1276CB4E7017D1E2369A3D0 /* Pods-GoogleMapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UECYSF7WKH;
+				INFOPLIST_FILE = "$(SRCROOT)/GoogleMapDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascratech.googlemap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2D84A951FAAEA6800F488E2 /* Build configuration list for PBXProject "GoogleMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D84AAD1FAAEA6800F488E2 /* Debug */,
+				C2D84AAE1FAAEA6800F488E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D84AAF1FAAEA6800F488E2 /* Build configuration list for PBXNativeTarget "GoogleMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2D84AB01FAAEA6800F488E2 /* Debug */,
+				C2D84AB11FAAEA6800F488E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2D84AA41FAAEA6800F488E2 /* PayBankUber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2D84AA51FAAEA6800F488E2 /* PayBankUber.xcdatamodel */,
+			);
+			currentVersion = C2D84AA51FAAEA6800F488E2 /* PayBankUber.xcdatamodel */;
+			path = PayBankUber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2D84A921FAAEA6800F488E2 /* Project object */;
+}

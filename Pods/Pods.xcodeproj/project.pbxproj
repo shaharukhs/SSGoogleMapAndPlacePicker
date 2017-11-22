@@ -7,237 +7,641 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085EB71D7B74B7D0654F6282B6304785 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 473688427E142377581B62B8CB6A7864 /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CCB405603E5D8B9E3B474943320AFE4 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FDE1537BCA0EC083B0615CC5ED77D8 /* AsyncButton.swift */; };
-		164F0F91F578B1D0D3CE59E82BDE7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFF5528EFD86715B72823DF14310D44 /* Images.xcassets */; };
-		1B6E8FCB23C590A03612DEAEA259C544 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84575BE97DBC6DF8FE1906DDA584D2 /* DesignableLabel.swift */; };
-		20080E54BAE959039CE3070312328878 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5611CF5D42DFCAFCA3746BD80D94F68 /* DesignableImageView.swift */; };
-		23B55C2F761AFB36273C1D7ED4A17E59 /* Pods-PayBankUber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C64090813C17497F4340EE4A8E267 /* Pods-PayBankUber-dummy.m */; };
-		28CB7C2B7D6F020EB11DD6FD01AF25A6 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060827BB99692C33BBE5EB4511B8097F /* SpringTextView.swift */; };
-		3016CD163A8123A470D3C615ED7325B7 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A2EE630DC32EB6FBF11EEE58EA3D6E /* SpringImageView.swift */; };
-		3FE24FF2625368456B2E32BE8530F739 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A56E99CDAD2D3CA21A2A7378869D7B /* SoundPlayer.swift */; };
-		4AD963BDD01185792226E2E3F158CA48 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25506EC6ED48C7B7444ED323176848B /* AutoTextView.swift */; };
-		578D3F5E9CBA7C3B25953EBD86094884 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E177DF101153386F65310A0A6E361491 /* UnwindSegue.swift */; };
-		58A9AC520BC4B6CCCB4779B44845FC1D /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74964F603446BA6F8B5174A047D54FFB /* DesignableButton.swift */; };
-		685354A3E66A021B0A732FCCAD3EFCE2 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4008F3C65D8B096AE93AEE00B48B80C /* ImageLoader.swift */; };
-		69C91D3D82041BD42C687F03A34E8D44 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC295C909699C2D7CBC0FAE1CCF55454 /* SpringAnimation.swift */; };
-		77B67E69F02FF638634B6C20420C60D2 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614DC31DC32CB9D30679A235E1FD23E /* SpringButton.swift */; };
-		79227E0E46B668FFB9AF53B9F66C593D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		905DBD1FBC56B8A29642BEAD960844E0 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DDD8367F5B246DF03A2EEEFF631729 /* DesignableTextField.swift */; };
-		96672EFA8BD12051C54CD92ADD738BC2 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96BA2332184F97CDF45A5D03FEA6EE /* DesignableView.swift */; };
-		9EC79650638C4E8E78FFF49F5E5AB897 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A69B17690A607B4A5A67E7ECDA55A7 /* TransitionManager.swift */; };
-		A13309A34DB5B30BA48EC558AB044725 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6B3D7BA0E04F919ADFB41E1B6BFB8A1 /* LoadingView.xib */; };
-		A177CA46D13C690AB76C478EFC31D037 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F86666080058FCFD6796C1C77314B99 /* SpringView.swift */; };
-		A228BBEDC5C84F122066249981A1DF2E /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A02E4ADE6EE2D8AFE84FEF2F66A147 /* DesignableTextView.swift */; };
-		A96ED58E3E4B55E7E33E33D50EE4C2DF /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3183B613B435CB0D05C0AB2F53AD83D /* Spring.swift */; };
-		BBFB190FCF3FAD4FA5AF3B4E025CD58A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85E946CA22BD3C46870DFFA83FDAA6A /* AsyncImageView.swift */; };
-		BC5B65F6BC5A3A3CFE2F8E54A7C9DDEE /* Pods-PayBankUber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EBE9CEE3BF9E0B3ADA1C988833F216 /* Pods-PayBankUber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFC177AE0922F11CE21CD6E9485C693D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C493EF1DE5C39107A4725A889FF6CE5C /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DEFF02E4344F6918666FEE6069AC5 /* KeyboardLayoutConstraint.swift */; };
-		C89DCF7F7EEAFA5751F2F3A4BCFEB8DA /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B96A1B4D3A35B6B55C6DFCDB0788F0 /* SpringTextField.swift */; };
-		CC0DBEB18C075E50C14C025E85EE8E29 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DF1B2B682D92C2A1871F67B82EE22A /* DesignableTabBarController.swift */; };
-		D521E7CCF77F388245C8A5F33B2BD111 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B961FD049C9526B3478FF3178861271 /* Misc.swift */; };
-		D688F7AAF20A950020F038F11D8F9451 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9952B51EA0790BA0D10AA8E96DA330A /* TransitionZoom.swift */; };
-		DC00377F7BDD81978BDE4899EE3B9261 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D1864D0071EAC851012D718B643BD /* LoadingView.swift */; };
-		EA0E4F44A478293AF99297EDB4E8A7EE /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBFC4E12003ACBB45EAA9EB3D30F34A /* SpringLabel.swift */; };
-		ED4D846446762DFC0114A2BA0925D237 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEAD0A3E10B53CCF78E057DE2F1D0F6 /* BlurView.swift */; };
-		EDD241F55E9778921F0B0E25AB46855A /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3BB870E174E8B2186D91BA202C77B /* Spring-dummy.m */; };
+		01B4B96632DCC44844AE218386728CFB /* RidesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE92C813667D6A1A42CBA933997ECDC /* RidesClient.swift */; };
+		028CD512CCBD844C080207F62BD17D5C /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E7D385E388DCC4DFE2CD25641447D /* SpringImageView.swift */; };
+		0818253C58AF6117287EF4415435F8D3 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCB36A0E323C468F8EDF3CD3B9CA7B /* DesignableImageView.swift */; };
+		0A116C166EF5C6C83FCA6BDDABE220EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0DEAA752F417B691D0A1DDEADB4D6F4F /* hi-In.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EA83916695C667987A8F20A5B179459B /* hi-In.lproj */; };
+		0E9BEA5690E1DF719D2522A2ADDE4FA4 /* RideRequestingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D8B755E93FF778C66948AC2C01FBE8 /* RideRequestingProtocol.swift */; };
+		0FB210CEDE82094A0BA0932B48D02F3B /* Pods-GoogleMapDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9227F8366E16B56E908D68DF96564345 /* Pods-GoogleMapDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9637C11A3AB67A400F594AB21E84A53 /* Timeline.swift */; };
+		1425A7A3053B2FB37C79999F093DB9AD /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF328FE50277E75D01B122F075F55649 /* SpringLabel.swift */; };
+		14E5878DE959F8A72B482AA9CA7C6314 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C2A88158892748CFD8E19249ECD2B /* KeychainWrapper.swift */; };
+		1906FEB78577D3B16045D96002DE0D03 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF21498FFCA72BCB2E7787C59F06B198 /* ModalViewController.swift */; };
+		1920FBCB51069B09B4C3B081BFCE562C /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0385DEAEF44697E5499917DD79432F /* SpringTextView.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF914E84BF16ED2107A3CB07D0B1E0CD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBBC6EDD6CD346942FEE3FE0ABCEA05 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5DAC1CE484554F41D18F2B5B65324A /* UIImage+Gif.swift */; };
+		1FCA9414933EA96D662A9348A09C0AD7 /* ModalRideRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C0DFC4AF803B6F563190C45B4F6E6 /* ModalRideRequestViewController.swift */; };
+		21BA8116BA882D315F7031F175A8F57B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2331E0365C16141740D8FC1B8B8D3E56 /* RideEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85AF9B3C63D554BED213C020193F21 /* RideEstimate.swift */; };
+		240F831531DAE976F74EE732C16A47CB /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB72479A172325D703437F2E01CA07 /* DesignableTabBarController.swift */; };
+		250D88899C742CB904073730EB70B0A1 /* UberRides-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D290CDFD632347A913408FDC0231428 /* UberRides-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		268F36726A2E735FF379ED16AEEFE212 /* RideRequestDataBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D83923987C0D51891F0B2979460AD4 /* RideRequestDataBuilder.swift */; };
+		2D577D719E8A55518E688E7C6527BF82 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EF4829E125B6155B13DE1A3FEFB8A7 /* UserProfile.swift */; };
+		30D7142FB6A7BD1D1CAF34507D31673B /* EndpointsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B08A5C6E15382030B4CC92198E79F4 /* EndpointsManager.swift */; };
+		313E1E8C951D25594BE09766FA9A32A5 /* pt-br.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2549EBD509F10668C69B4512ECC5C545 /* pt-br.lproj */; };
+		33FB7811D3DE3C42D5F432B7595BEEB6 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B9DCF6EADB7938ED3D418E7FF49BD4 /* LoginManager.swift */; };
+		3489369AD21650658D5C9ED779343F77 /* LoginManagingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A5EB2B891FC9487FEB39C3687BDB31 /* LoginManagingProtocol.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D61C5A5C9872C39233FFCF67D2B8926 /* TaskDelegate.swift */; };
+		363CF6345E9C9E41B5AA4E13B33A8AFB /* UBSDKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D650A288992890823DAD57AABD8CC402 /* UBSDKConstants.m */; };
+		373D4EA6EFBFBC7018D39B80740FBB62 /* AuthenticationDeeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699AAF793C4F6AA61633D5B79F43AC05 /* AuthenticationDeeplink.swift */; };
+		3A14486C2A6CEDC503C4DE5D1E2C8000 /* BaseDeeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5FA0D9F168E1622265620649AF6A91 /* BaseDeeplink.swift */; };
+		3BED7ADD06B9DEF017DFF678F33DDAFE /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 5FD0290DC7E2821843E0CF2858811504 /* en.lproj */; };
+		3CF45ED62AE69CFFFBAEA7C6731C18B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E4168836828C040A45DA2376E9EE1F /* LoginView.swift */; };
+		3E155782CB1A8B5A7150DF40D7255BEF /* RidesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD6FBA84594445FECF084A3BA896DF /* RidesError.swift */; };
+		3E6D3EFAAD5557667CB15D877C5200A0 /* UpfrontFare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC77C939CAE09B0042AB2804CE568D1 /* UpfrontFare.swift */; };
+		40BF7E524DB93B809496AC4BF8B80FA4 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE96A8F6E5D0CF3A5D0C05AA0C6CD7 /* Place.swift */; };
+		42B3E70ACAD57F3DB9A5B11A373FBAC1 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F765EF4AFBF28890C45D4EA25947D23 /* LoginButton.swift */; };
+		447CE1BFE8757B97F79FB4FE413E55C4 /* DeeplinkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303342AFD7EA7112017EFBCE68C08902 /* DeeplinkingProtocol.swift */; };
+		459D120C35227E8C978D826EDD0D94C5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C46AF45DC5DE7E9C5E4774C59A182E1 /* Request.swift */; };
+		48C64CC17DBF9E0D62B0709FEDD178D4 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA131D0BB4B7BD0FC0D56ACB8C36656 /* DesignableView.swift */; };
+		498A63CEFE16409686EFAB626C7CD63C /* Pods-GoogleMapDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 525D0DF12A0349387901107742C9B040 /* Pods-GoogleMapDemo-dummy.m */; };
+		529C546087A5393BA44F228443A0EB6F /* RideRequestLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAE706E4CF261A14F551F4C615320B5 /* RideRequestLocation.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982FD0CD6C5604FAC02E14C06EF2BC0 /* Request.swift */; };
+		53EDCDA7066C3CCFF86C398456C71A45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		54C8D11A4D0A46B0162372B61363D465 /* UberRides-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ED85EF0F7E852896372B5B70404CFF /* UberRides-dummy.m */; };
+		559E50A4325D6807B753B64B54B9D7F2 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2000D568762EE0B714A0D55F55D939 /* RideRequestView.swift */; };
+		571F106F04FC1EDD1DCC7E309FF468DA /* AppStoreDeeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED765C1FB64C4BEABB8FAE4608BBC1C /* AppStoreDeeplink.swift */; };
+		57E96E4177B6EA4AC5B18CA85AAF4ABC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52252F7DC59773ECEAB761035FBB0D3B /* Media.xcassets */; };
+		58229CDC6B65206D607C7F36FCD7E90B /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776DA947F38E22594FC7DD7D12EEF271 /* SpringView.swift */; };
+		583F64879D5C9ECBF7FA666DDE57D5D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		595F64DD1EF59F68CDAB8513AD750CF5 /* UberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5221CD7DC42DE0C3354FB5C41917A95 /* UberButton.swift */; };
+		5BB90E01E7FC589E18E1AFFC66026157 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422377037E3084A82B333CD6B24A5CF /* AccessToken.swift */; };
+		5D2C31443925E7EA2834394E24CE1292 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF7F5194437C45B6068068875F3F7C /* AsyncImageView.swift */; };
+		5E5E1C4831A9C8B1DA0E1014B4DFE97E /* RequestDeeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B260EFCC427EF5EC956AD791B275686 /* RequestDeeplink.swift */; };
+		5EDC50359C766A83106742C46A9E21DC /* AuthenticationURLUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C459C9077802AE9B05EDD4333C8013 /* AuthenticationURLUtility.swift */; };
+		5F22BF03E25B788067D21ABC25B368F6 /* DistanceEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6657E0E687C2D5954D096E41DB4AE0 /* DistanceEstimate.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72976BDB2BB2BA8CACD0D3FB543A0764 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FC3D3925DC18C4EFD697D8172F1135 /* ServerTrustPolicy.swift */; };
+		63F5E46E8868E6DD6AC47215F9379E1B /* RidesScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A38F5DD771BD0C99C095C6F74D3CF /* RidesScope.swift */; };
+		6571EC3CE46F807518C02D917A6A053F /* RideRequestViewErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED1CD91D31A0AF798F9678F8595995A /* RideRequestViewErrorType.swift */; };
+		683C8FA08DD2CDF71B0A8444DA957C29 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F3633E633CCED677D94EB7EB84CEB /* SwiftyJSON-dummy.m */; };
+		691714B9D1EE764CE71928CCC067B9E5 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2A953B043718A81A5CD770B6623349 /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F9D09202054045D3C16A5F387EC2C5 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD4655CEC29C4BD6C9D88BA0BAA7FA2 /* TransitionManager.swift */; };
+		6FD1B1736C0DC8810F4CD21CE3288BDD /* TimeEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C5408F8519E67D30D658187C5F8ADD /* TimeEstimate.swift */; };
+		7351CBC81C12C35583A226A7130CDA4F /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217863FE8237E8608A54DB83943E5A9A /* BlurView.swift */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		74EF68D84056829EFF0ACB18E4B4AC17 /* RideCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA7ECE00049DAC1A26CCD53343DAC62 /* RideCharge.swift */; };
+		755EF401B55C88AF5A21E8C768F508C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0EB6726FA4B615000BBDEBA9750FA4 /* Images.xcassets */; };
+		77B3B634E9F635874A9AE121D6F2650C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C59CF5B44EE6AFF64B0CD8D58D08FAB /* ImageLoader.swift */; };
+		7856553133DF679EE473E38E6E928691 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F668E145DDC4654815BBF12D940C2 /* Spring.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CADD98F85DDAFDDABEC42D0BFC7713 /* SessionDelegate.swift */; };
+		7C23D7D35A6EBD567094F7CFE92B352E /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FF3D7594DE629C3A404F02DA6742CBF5 /* zh-Hant.lproj */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D681877776567BA5931ABEBC54037F6D /* Result.swift */; };
+		7FCB212390EB5CF541132A4EC27C2FEE /* PriceEstimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F5463D890FDD399DA3B0FBA32744C /* PriceEstimate.swift */; };
+		8164EB87F080B5E32BE2A065D34AEFA8 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CECAF534A9BFC8C78D9AAE8B418E5E4 /* DesignableButton.swift */; };
+		84653349BA0EF42B1F0DB1149D17AB75 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01154E597DF474ECA50E87BA9B9561 /* UnwindSegue.swift */; };
+		863985BC5B315AE24F35FEF0704459BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		89A9E523A8F0749001E1F16E84114060 /* RidesAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2F6AA8726B84BE89A163752070AE52 /* RidesAppDelegate.swift */; };
+		8A04AA3058D046FF62055DD744201989 /* RideReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6403358361304F16DCE633CBDA063B /* RideReceipt.swift */; };
+		8C6C3959E29193C35B2B5A4625E4D458 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E11CAACF33FA30E14A4B20D3DB14D4 /* DesignableTextField.swift */; };
+		8DD08169CE7DDD2CE22C9FDDD2ABA66C /* NativeAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79A3249124B2D3D0EDA24C067DE4639 /* NativeAuthenticator.swift */; };
+		8DD5EB1B520D8576CAD91A9781ED45C0 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B16876A821BB43047CBE7115AB3DAA6 /* PaymentMethod.swift */; };
+		8DE3BB881E87B385C4B8B5242899B03A /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E0EBD9941BA06830CA2FB56456179A /* TokenManager.swift */; };
+		8FC3EAE8AF903643F1CB43270018370D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC525145A8C0D751BDB78FACB376F5ED /* LoadingView.swift */; };
+		9171532A720E2DA370067F2103789A2D /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7AC5EAF7D0B11AB5BE7C84AB29EB6 /* SpringTextField.swift */; };
+		92BDDA2F0D31D5D177AEB9CF69E258D6 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340B622AC90DEB3F3569351C89145B4 /* SpringButton.swift */; };
+		99DAEA74DE446B90AE833ECA33EAB1D3 /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FDEFD798FEB8609775B660B6994D3B /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D85824DE0A0A568C446DDBA5A39F370 /* UserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70955122CF91CDAEFDB77E1B872CA339 /* UserActivity.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E016A0080C80C8B2108BC8DA8755B3F /* AFError.swift */; };
+		A23AE1A8D174D4B97BBF7F2F773DF2FD /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B18E2833A187F100FE19C8EA23F65169 /* ru.lproj */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62AE1694BDA7DBD5A60968BA25BDC70 /* NetworkReachabilityManager.swift */; };
+		A60CC0B3C9F73DED874CE8A2337AD596 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790408B0453A81C9228FD7713E799E0F /* DesignableTextView.swift */; };
+		A6A820670FAE32702EB9E8EA961948FE /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48E1A5371393141FCE28435EF37FE08 /* SpringAnimation.swift */; };
+		A6B45E62C49B196E4FAA7E5E78AFAE23 /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 466A503B809A34AF0DCF791D6018493B /* SwiftGifOrigin-dummy.m */; };
+		A8089E13A600654345952C67AED9CF82 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 928F6201E65F4D2FCB99E1DA8C4A191F /* zh-Hans.lproj */; };
+		A8B2F1635D5326AE7CC64804F0E957C7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2CD31951604ED929832CD41C83A02 /* SwiftyJSON.swift */; };
+		A9C1DB2B00A318E6B3B356037A3C731F /* RideParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42105087CFD3AA5D5D55D61A2BCFAD3B /* RideParameters.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8D298B8E84D1E4A39535A8DDD7342C /* Alamofire-dummy.m */; };
+		AA6F2C1961F1E76E499A4B7EA4F0288F /* BaseAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAFD5B16C4A22F0DD3BA856833A3D7 /* BaseAuthenticator.swift */; };
+		AC466D5F8A216BB433135467CF1C18CB /* UberRides.h in Headers */ = {isa = PBXBuildFile; fileRef = C06031DFCB5A0FF4FC8FE529D5AB4C21 /* UberRides.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9BD73A3D28EDE027DB07F44A80945C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C072AAC1993DA4E7A0DCF93C5EC5EFD /* Configuration.swift */; };
+		AD66285CC2F5A4AB6380063CBEFD933D /* DeeplinkErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B4BA3243C7F3C4A4E3002E38DB70F /* DeeplinkErrorType.swift */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB514D49FD305D55067DA7239490DE34 /* SessionManager.swift */; };
+		AE554F0A2B6A7068C9491012D5FCD8E1 /* UBSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A79E82C17DF5478A21270D3AB420EDA7 /* UBSDKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED14C366BC7FCEE73BB1DB692BFEC12 /* AccessTokenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E56543FF616506E6280EFEFDBE8C033 /* AccessTokenFactory.swift */; };
+		AF3F44D0092D2BBD33BE5F7C55655764 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FAA1E12CA9D4CE1007BABB8372F3C /* Ride.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA7012A3EB299488E45ED89BAF62BA1 /* MultipartFormData.swift */; };
+		B83F80243721816A5BD2F986B2B08522 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC895DCFA37734B44D7A418CE71F9AFC /* AutoTextView.swift */; };
+		B9DB1EF682CFF1A16BFE182C380A8F52 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EE0B58000C1FDF2DDFF37ADD891D0C /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8E3CCB80860B3501EF0F33E0FD8803 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB4A442129D7B2B2227E45C627696D1 /* LoadingView.xib */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A43D552F0F398EAFB65AD0CE3AAF18 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823BFB75BD284236348A95842281735 /* ParameterEncoding.swift */; };
+		BEFA195918A53C005E0FD773000AE73B /* DeeplinkErrorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C196FC5815081B2F3BEAFAC433352CC4 /* DeeplinkErrorFactory.swift */; };
+		C01B59798710C8582301895A054616F3 /* RideRequestViewErrorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49E1AB0663E7E1FCA21BF36A4765C3 /* RideRequestViewErrorFactory.swift */; };
+		C05773F1F209A1D0B5CAE33C4DCFA071 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD955B20D61CDCFD32567D467AF13A /* Driver.swift */; };
+		C628637B4BC55A7E05549E6E15E08E10 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D11CE4C033C26B5404F3E8CB5BB869 /* Misc.swift */; };
+		C7FBD81D6FCBEE282EFFFC49BE4D3CD4 /* DeeplinkRequestingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABBDAED84A47898E1F44CDE943B9E0 /* DeeplinkRequestingBehavior.swift */; };
+		C9A5ECA7C0CE1A7426AEC1BA8AA9D18F /* LoginViewAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D0EA053D1B0678A1DFF6992D4B3C2F /* LoginViewAuthenticator.swift */; };
+		C9CEA57B722887156D4B1C6CE7828294 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8B4037CD6C486DFABA7C42741B548 /* SoundPlayer.swift */; };
+		C9F170194B6B5A7A51C830D4A567948D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D33DDEE6A76166BC8711C1492595FA /* Vehicle.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05044100AC4669C97235FD403B1710AD /* Response.swift */; };
+		CBCB4945A9C2ADE73A7BCF22E697C6F8 /* AuthorizationCodeGrantAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3357175392E596150A24D6AA8461DB /* AuthorizationCodeGrantAuthenticator.swift */; };
+		D2121C6604926227B3E86E09AB4A53E5 /* UberAuthenticatingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE665D3D53A2A43C5E5159167A5F577 /* UberAuthenticatingProtocol.swift */; };
+		D2B00E9EF789EBEC5EE4C87361441E51 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89B99073F4266D213E7F96C62B04688 /* DesignableLabel.swift */; };
+		D4330FAE320C0058DF8CBFAD2312FE1C /* RideStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCA10E539AC252E3B190887C69E9C3 /* RideStatus.swift */; };
+		D774EE817877F13942B690364AE51F10 /* ImplicitGrantAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A3DF84C7BD0F2FF97517AFAB4BB0EF /* ImplicitGrantAuthenticator.swift */; };
+		DAD493D6BDEB1B08120FC4C30D43611F /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC37FB292FF6CD3AE7582491DEB3B3B /* AsyncButton.swift */; };
+		DADBD75360FD2FB0E708EFEE6BA34BB6 /* RidesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A4F77A1E27ACBC992BC1018E2D0DC1 /* RidesUtil.swift */; };
+		DE74919EB3DE9997ED8DB530414A45BC /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994D9DCC8EDBD81D545AD576A1458F1 /* KeyboardLayoutConstraint.swift */; };
+		E19E284D4353A255CBAC868B309D9D95 /* RideRequestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134F01DFE39D4CB342D94B63A80157F /* RideRequestButton.swift */; };
+		E83A9CBE3806829FEAF97ED1475468AF /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F87BCD8BEA5D20BA0C62A3E1E77FB2 /* TransitionZoom.swift */; };
+		E884567BD18DA281F4DD620909B9C2CE /* RideRequestViewRequestingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5B59C981C08DBA095151566C4697 /* RideRequestViewRequestingBehavior.swift */; };
+		EC8C83EB57C9DF5BB06C5D6EEB742D30 /* Codable+Uber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A750DB5CCD3ADE6021B7A93FF6616BA /* Codable+Uber.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F59CA38BED53838731103B7C43E4C /* Notifications.swift */; };
+		EFD6793230BF742FEF7CA4E787BBD862 /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2D58EE6DE13FF29A6496F1C2437E51 /* OAuthViewController.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0F7D6B8A792948714BC7D380BF048 /* ResponseSerialization.swift */; };
+		F87B77E2FA30AAEEA64011DE52A0C002 /* RideMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6BC462F1C8A8C8DA96100F60F2F2B1 /* RideMap.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C783C0CA6D00B2F7A4904598479EF4 /* Alamofire.swift */; };
+		F9CEDC0D7770F6142F64487FC402A3FE /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C594788D261D0B428894AAA47CD1D /* Spring-dummy.m */; };
+		FDC16F34D2C155AABE2A41B075905375 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679C5B166E92E540077297782E2480E /* Product.swift */; };
+		FF9B5C9D9FD3C298DEBCE56B5ECF7F0D /* RideRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDF7B9535CB02DB7C4B61C07D6403D3 /* RideRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2026D09BBA959C4BB80E765799E78151 /* PBXContainerItemProxy */ = {
+		506D7E3E27F2B66D61F2C5BA2DBBEDA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E33FBE4B03DDF3FC20A3FDE072EF912;
+			remoteGlobalIDString = 5B2566AADBCBE714B554D78438AAF899;
 			remoteInfo = Spring;
+		};
+		5B68F4C67BAE5FC64ACDA6F42E988407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		BCBC01B78AEA524D4F520E1B7374FB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B14EE40209D86645B71B60C76DC16A86;
+			remoteInfo = SwiftyJSON;
+		};
+		C4433F922C2297D30AA9362B1CC6DEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A29371A6856A5E38EDF38CD61B0D13;
+			remoteInfo = SwiftGifOrigin;
+		};
+		E54BE729A171FC4144BD6A47BCCC9F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBFE1776937B2524B357585469120A9;
+			remoteInfo = UberRides;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021DEFF02E4344F6918666FEE6069AC5 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
-		060827BB99692C33BBE5EB4511B8097F /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
-		071CD533A9646B3BD7CB89CA9C1020A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11406CEBD43A3436405D10ECDF6FE98F /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
-		136C2EEAFA341B59776A1647AE28C97A /* Pods-PayBankUber-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayBankUber-frameworks.sh"; sourceTree = "<group>"; };
-		15DDD8367F5B246DF03A2EEEFF631729 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
-		1614DC31DC32CB9D30679A235E1FD23E /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
-		1BB3BB870E174E8B2186D91BA202C77B /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
-		2E62E3D82711D7F09CE493C86A651924 /* Pods-PayBankUber-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayBankUber-acknowledgements.markdown"; sourceTree = "<group>"; };
-		31FDE1537BCA0EC083B0615CC5ED77D8 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
-		33A69B17690A607B4A5A67E7ECDA55A7 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
-		33B96A1B4D3A35B6B55C6DFCDB0788F0 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
-		3A9D1864D0071EAC851012D718B643BD /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
-		3B961FD049C9526B3478FF3178861271 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
-		473688427E142377581B62B8CB6A7864 /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
-		4F86666080058FCFD6796C1C77314B99 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
-		5174427A85DBADF02493EB6C6A38B464 /* Pods-PayBankUber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PayBankUber.modulemap"; sourceTree = "<group>"; };
-		5B3392E48B50E2A02D29FA2FA14E34B9 /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Spring.modulemap; sourceTree = "<group>"; };
+		00866A65E930BBCA52F895C2F7F0C65A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FC3D3925DC18C4EFD697D8172F1135 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		02264ABC9B32FA27AFD23D0C1244A059 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		0478E2796F74928E649FB766F96DC708 /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
+		04B08A5C6E15382030B4CC92198E79F4 /* EndpointsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndpointsManager.swift; path = source/UberRides/EndpointsManager.swift; sourceTree = "<group>"; };
+		05044100AC4669C97235FD403B1710AD /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		05FC9D94FDBC469E9B1AEAFF30E9CD1D /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		080F59CA38BED53838731103B7C43E4C /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		0C2F5463D890FDD399DA3B0FBA32744C /* PriceEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceEstimate.swift; path = source/UberRides/Model/PriceEstimate.swift; sourceTree = "<group>"; };
+		0C59CF5B44EE6AFF64B0CD8D58D08FAB /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		0D6BC462F1C8A8C8DA96100F60F2F2B1 /* RideMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideMap.swift; path = source/UberRides/Model/RideMap.swift; sourceTree = "<group>"; };
+		0D8D298B8E84D1E4A39535A8DDD7342C /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		131F668E145DDC4654815BBF12D940C2 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		14D33DDEE6A76166BC8711C1492595FA /* Vehicle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vehicle.swift; path = source/UberRides/Model/Vehicle.swift; sourceTree = "<group>"; };
+		16E2CD31951604ED929832CD41C83A02 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		19F87BCD8BEA5D20BA0C62A3E1E77FB2 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		1A6E30ADE1E70CBEDF75E5D2063AAADF /* UberRides.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UberRides.xcconfig; sourceTree = "<group>"; };
+		1AE665D3D53A2A43C5E5159167A5F577 /* UberAuthenticatingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UberAuthenticatingProtocol.swift; path = source/UberRides/OAuth/UberAuthenticatingProtocol.swift; sourceTree = "<group>"; };
+		1BAD955B20D61CDCFD32567D467AF13A /* Driver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Driver.swift; path = source/UberRides/Model/Driver.swift; sourceTree = "<group>"; };
+		1CC77C939CAE09B0042AB2804CE568D1 /* UpfrontFare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpfrontFare.swift; path = source/UberRides/Model/UpfrontFare.swift; sourceTree = "<group>"; };
+		217863FE8237E8608A54DB83943E5A9A /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		2454ABAAD6562DD80922144BECFAD882 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		2549EBD509F10668C69B4512ECC5C545 /* pt-br.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-br.lproj"; path = "source/UberRides/Resources/pt-br.lproj"; sourceTree = "<group>"; };
+		27972EE56154E038134DD1F0184941C9 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2CE92C813667D6A1A42CBA933997ECDC /* RidesClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidesClient.swift; path = source/UberRides/RidesClient.swift; sourceTree = "<group>"; };
+		2E6FAA1E12CA9D4CE1007BABB8372F3C /* Ride.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ride.swift; path = source/UberRides/Model/Ride.swift; sourceTree = "<group>"; };
+		303342AFD7EA7112017EFBCE68C08902 /* DeeplinkingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkingProtocol.swift; path = source/UberRides/DeeplinkingProtocol.swift; sourceTree = "<group>"; };
+		31CADD98F85DDAFDDABEC42D0BFC7713 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		322808ADA84975D4C426B961DCC154DF /* Pods-GoogleMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		329F3633E633CCED677D94EB7EB84CEB /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		336A38F5DD771BD0C99C095C6F74D3CF /* RidesScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidesScope.swift; path = source/UberRides/Model/RidesScope.swift; sourceTree = "<group>"; };
+		3679C5B166E92E540077297782E2480E /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = source/UberRides/Model/Product.swift; sourceTree = "<group>"; };
+		37D83923987C0D51891F0B2979460AD4 /* RideRequestDataBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestDataBuilder.swift; path = source/UberRides/Model/RideRequestDataBuilder.swift; sourceTree = "<group>"; };
+		3994D9DCC8EDBD81D545AD576A1458F1 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		3A750DB5CCD3ADE6021B7A93FF6616BA /* Codable+Uber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Uber.swift"; path = "source/UberRides/Utilities/Codable+Uber.swift"; sourceTree = "<group>"; };
+		3D290CDFD632347A913408FDC0231428 /* UberRides-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberRides-umbrella.h"; sourceTree = "<group>"; };
+		3ED1CD91D31A0AF798F9678F8595995A /* RideRequestViewErrorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestViewErrorType.swift; path = source/UberRides/RideRequestViewErrorType.swift; sourceTree = "<group>"; };
+		3FBD6DDE1C1BA7AA2AE467F7B40E395D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409C0DFC4AF803B6F563190C45B4F6E6 /* ModalRideRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalRideRequestViewController.swift; path = source/UberRides/ModalRideRequestViewController.swift; sourceTree = "<group>"; };
+		42105087CFD3AA5D5D55D61A2BCFAD3B /* RideParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideParameters.swift; path = source/UberRides/Model/RideParameters.swift; sourceTree = "<group>"; };
+		45A4F77A1E27ACBC992BC1018E2D0DC1 /* RidesUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidesUtil.swift; path = source/UberRides/Utilities/RidesUtil.swift; sourceTree = "<group>"; };
+		466A503B809A34AF0DCF791D6018493B /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
+		473E7D385E388DCC4DFE2CD25641447D /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		4A2CA5CF82290C188DACD3C60B0813E0 /* UberRides.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UberRides.framework; path = UberRides.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B01154E597DF474ECA50E87BA9B9561 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		4B0385DEAEF44697E5499917DD79432F /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		4CC31897F62178BAA6647FE064FEE001 /* Pods-GoogleMapDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleMapDemo.modulemap"; sourceTree = "<group>"; };
+		4CD03E6B6D5802BDB9694E42348FC817 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		4CECAF534A9BFC8C78D9AAE8B418E5E4 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		4EADDD5CD62DA9FDF48FC6EE8BC70EB7 /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
+		4EB7AC5EAF7D0B11AB5BE7C84AB29EB6 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		51157C3C8757C9D6DAEB4EE0388CF982 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52252F7DC59773ECEAB761035FBB0D3B /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = source/UberRides/Resources/Media.xcassets; sourceTree = "<group>"; };
+		525D0DF12A0349387901107742C9B040 /* Pods-GoogleMapDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleMapDemo-dummy.m"; sourceTree = "<group>"; };
+		539BA9D047D6D3D1A2FFCB41D2CAFC30 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		5662B3CAE90B70DF372FC60011A6C7B2 /* UberRides-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberRides-prefix.pch"; sourceTree = "<group>"; };
+		56EE0B58000C1FDF2DDFF37ADD891D0C /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		58CAFD5B16C4A22F0DD3BA856833A3D7 /* BaseAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseAuthenticator.swift; path = source/UberRides/OAuth/BaseAuthenticator.swift; sourceTree = "<group>"; };
+		58D11CE4C033C26B5404F3E8CB5BB869 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		5E016A0080C80C8B2108BC8DA8755B3F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		5ED765C1FB64C4BEABB8FAE4608BBC1C /* AppStoreDeeplink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppStoreDeeplink.swift; path = source/UberRides/AppStoreDeeplink.swift; sourceTree = "<group>"; };
+		5FD0290DC7E2821843E0CF2858811504 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = source/UberRides/Resources/en.lproj; sourceTree = "<group>"; };
+		61DCA10E539AC252E3B190887C69E9C3 /* RideStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideStatus.swift; path = source/UberRides/Model/RideStatus.swift; sourceTree = "<group>"; };
+		61E0EBD9941BA06830CA2FB56456179A /* TokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenManager.swift; path = source/UberRides/TokenManager.swift; sourceTree = "<group>"; };
+		63ABBDAED84A47898E1F44CDE943B9E0 /* DeeplinkRequestingBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkRequestingBehavior.swift; path = source/UberRides/DeeplinkRequestingBehavior.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69EAD86A3FFDFD135E114248408FFEF5 /* Pods-PayBankUber-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayBankUber-acknowledgements.plist"; sourceTree = "<group>"; };
-		74964F603446BA6F8B5174A047D54FFB /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
-		74EBE9CEE3BF9E0B3ADA1C988833F216 /* Pods-PayBankUber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayBankUber-umbrella.h"; sourceTree = "<group>"; };
-		7902C35B7998BF428D0A5F9BA796A96B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D5952B5A25051680063C11813778029 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		688534FC88F86D8918F46F8BE5242E34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6982FD0CD6C5604FAC02E14C06EF2BC0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		699AAF793C4F6AA61633D5B79F43AC05 /* AuthenticationDeeplink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationDeeplink.swift; path = source/UberRides/AuthenticationDeeplink.swift; sourceTree = "<group>"; };
+		6B16876A821BB43047CBE7115AB3DAA6 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = source/UberRides/Model/PaymentMethod.swift; sourceTree = "<group>"; };
+		6B49E1AB0663E7E1FCA21BF36A4765C3 /* RideRequestViewErrorFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestViewErrorFactory.swift; path = source/UberRides/RideRequestViewErrorFactory.swift; sourceTree = "<group>"; };
+		6BBE96A8F6E5D0CF3A5D0C05AA0C6CD7 /* Place.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Place.swift; path = source/UberRides/Model/Place.swift; sourceTree = "<group>"; };
+		6BF8B4037CD6C486DFABA7C42741B548 /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		6EA131D0BB4B7BD0FC0D56ACB8C36656 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		6ECB2734BCCD1A3071633A542A414D6A /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		6F765EF4AFBF28890C45D4EA25947D23 /* LoginButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginButton.swift; path = source/UberRides/LoginButton.swift; sourceTree = "<group>"; };
+		70513E209B03DD0CF6131AFC93C24507 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70955122CF91CDAEFDB77E1B872CA339 /* UserActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserActivity.swift; path = source/UberRides/Model/UserActivity.swift; sourceTree = "<group>"; };
+		7134F01DFE39D4CB342D94B63A80157F /* RideRequestButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestButton.swift; path = source/UberRides/RideRequestButton.swift; sourceTree = "<group>"; };
+		71A3DF84C7BD0F2FF97517AFAB4BB0EF /* ImplicitGrantAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImplicitGrantAuthenticator.swift; path = source/UberRides/OAuth/ImplicitGrantAuthenticator.swift; sourceTree = "<group>"; };
+		71A76DEA43C95B67E9152C1E3ABAF615 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		71B9DCF6EADB7938ED3D418E7FF49BD4 /* LoginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginManager.swift; path = source/UberRides/OAuth/LoginManager.swift; sourceTree = "<group>"; };
+		72976BDB2BB2BA8CACD0D3FB543A0764 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		7319EF223E1E86802FE50E73021C1025 /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		755A78CD21520464CB69E1C7C42289DE /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		76CCB36A0E323C468F8EDF3CD3B9CA7B /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		776DA947F38E22594FC7DD7D12EEF271 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		790408B0453A81C9228FD7713E799E0F /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		7AA7012A3EB299488E45ED89BAF62BA1 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		7B260EFCC427EF5EC956AD791B275686 /* RequestDeeplink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDeeplink.swift; path = source/UberRides/RequestDeeplink.swift; sourceTree = "<group>"; };
+		7D61C5A5C9872C39233FFCF67D2B8926 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		7D85AF9B3C63D554BED213C020193F21 /* RideEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideEstimate.swift; path = source/UberRides/Model/RideEstimate.swift; sourceTree = "<group>"; };
+		7E0EB6726FA4B615000BBDEBA9750FA4 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		7E56543FF616506E6280EFEFDBE8C033 /* AccessTokenFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenFactory.swift; path = source/UberRides/OAuth/AccessTokenFactory.swift; sourceTree = "<group>"; };
+		813C2A88158892748CFD8E19249ECD2B /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = source/UberRides/OAuth/KeychainWrapper.swift; sourceTree = "<group>"; };
+		81CB72479A172325D703437F2E01CA07 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		8275703239DB128949F9F7BE0AB67424 /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Spring.modulemap; sourceTree = "<group>"; };
+		8728CB55163A5A6F621D124C6AAAF337 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		8823BFB75BD284236348A95842281735 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		8AAE706E4CF261A14F551F4C615320B5 /* RideRequestLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestLocation.swift; path = source/UberRides/Model/RideRequestLocation.swift; sourceTree = "<group>"; };
+		8C072AAC1993DA4E7A0DCF93C5EC5EFD /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = source/UberRides/Configuration.swift; sourceTree = "<group>"; };
+		8F3357175392E596150A24D6AA8461DB /* AuthorizationCodeGrantAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationCodeGrantAuthenticator.swift; path = source/UberRides/OAuth/AuthorizationCodeGrantAuthenticator.swift; sourceTree = "<group>"; };
+		90884FAB96D2BA517A439FF2D0D9C9B0 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		9227F8366E16B56E908D68DF96564345 /* Pods-GoogleMapDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleMapDemo-umbrella.h"; sourceTree = "<group>"; };
+		928F6201E65F4D2FCB99E1DA8C4A191F /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "source/UberRides/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		92EF4829E125B6155B13DE1A3FEFB8A7 /* UserProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = source/UberRides/Model/UserProfile.swift; sourceTree = "<group>"; };
+		9340B622AC90DEB3F3569351C89145B4 /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
-		9AD39722D8367157E945F808FCD2E9B8 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		A5A2EE630DC32EB6FBF11EEE58EA3D6E /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
-		AE8DDFD4006C9BBB7CF6B6B10ABD3879 /* Pods_PayBankUber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayBankUber.framework; path = "Pods-PayBankUber.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF93D19864E397D4BE43DFF88AC15961 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		B3A02E4ADE6EE2D8AFE84FEF2F66A147 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
-		BF84258227D53D60FE4DDA5FCCF1B8B2 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		C3183B613B435CB0D05C0AB2F53AD83D /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
-		C6839B114B0E2284D7AB814B53056BF7 /* Pods-PayBankUber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayBankUber.release.xcconfig"; sourceTree = "<group>"; };
-		CAFF5528EFD86715B72823DF14310D44 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
-		CC295C909699C2D7CBC0FAE1CCF55454 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
-		D37A96E038FA3D4D99C255FAB6656D95 /* Pods-PayBankUber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayBankUber.debug.xcconfig"; sourceTree = "<group>"; };
-		D4008F3C65D8B096AE93AEE00B48B80C /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
-		DA6ADA2525CC9A58407CE2D21D8DF8C6 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB84575BE97DBC6DF8FE1906DDA584D2 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
-		DD92C11AD88A5A4FB0AC52404C27868E /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
-		DD96BA2332184F97CDF45A5D03FEA6EE /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
-		DF0C64090813C17497F4340EE4A8E267 /* Pods-PayBankUber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayBankUber-dummy.m"; sourceTree = "<group>"; };
-		E177DF101153386F65310A0A6E361491 /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
-		E5611CF5D42DFCAFCA3746BD80D94F68 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
-		E85E946CA22BD3C46870DFFA83FDAA6A /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
-		E8DF1B2B682D92C2A1871F67B82EE22A /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
-		E9952B51EA0790BA0D10AA8E96DA330A /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
-		EDEAD0A3E10B53CCF78E057DE2F1D0F6 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
-		EEBFC4E12003ACBB45EAA9EB3D30F34A /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
-		F0A56E99CDAD2D3CA21A2A7378869D7B /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
-		F1ABCD71FC9E48FB9BB70AD26E47D858 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		F25506EC6ED48C7B7444ED323176848B /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
-		F3B45B0F53E7DEB84B47A4387B01453C /* Pods-PayBankUber-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayBankUber-resources.sh"; sourceTree = "<group>"; };
-		F6B3D7BA0E04F919ADFB41E1B6BFB8A1 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		93E11CAACF33FA30E14A4B20D3DB14D4 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		9422377037E3084A82B333CD6B24A5CF /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = source/UberRides/OAuth/AccessToken.swift; sourceTree = "<group>"; };
+		957C946DF42E41D0489231BD15CE0A1D /* UberRides.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UberRides.modulemap; sourceTree = "<group>"; };
+		95E0A3E0F4CABFD1FF56E884627B4D2E /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		9C46AF45DC5DE7E9C5E4774C59A182E1 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = source/UberRides/Request.swift; sourceTree = "<group>"; };
+		9C5FA0D9F168E1622265620649AF6A91 /* BaseDeeplink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDeeplink.swift; path = source/UberRides/BaseDeeplink.swift; sourceTree = "<group>"; };
+		9D2F6AA8726B84BE89A163752070AE52 /* RidesAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidesAppDelegate.swift; path = source/UberRides/RidesAppDelegate.swift; sourceTree = "<group>"; };
+		9F5923BC4A47E95A00A723B38BC6B6B6 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		A3A5EB2B891FC9487FEB39C3687BDB31 /* LoginManagingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginManagingProtocol.swift; path = source/UberRides/OAuth/LoginManagingProtocol.swift; sourceTree = "<group>"; };
+		A48E1A5371393141FCE28435EF37FE08 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		A4B1F652898FFFD4C729B167F23DBD8D /* Pods-GoogleMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A62AE1694BDA7DBD5A60968BA25BDC70 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A79E82C17DF5478A21270D3AB420EDA7 /* UBSDKConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UBSDKConstants.h; path = source/UberRides/UBSDKConstants.h; sourceTree = "<group>"; };
+		A8C5408F8519E67D30D658187C5F8ADD /* TimeEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeEstimate.swift; path = source/UberRides/Model/TimeEstimate.swift; sourceTree = "<group>"; };
+		A901686DC908B1628FC95ECF645EAEF8 /* Pods-GoogleMapDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleMapDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA2D58EE6DE13FF29A6496F1C2437E51 /* OAuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthViewController.swift; path = source/UberRides/OAuth/OAuthViewController.swift; sourceTree = "<group>"; };
+		AC525145A8C0D751BDB78FACB376F5ED /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		AC5DA02A3F1915E547F5F8C2877CC4DF /* Pods_GoogleMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleMapDemo.framework; path = "Pods-GoogleMapDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC895DCFA37734B44D7A418CE71F9AFC /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		ACD0F7D6B8A792948714BC7D380BF048 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		AEB4A442129D7B2B2227E45C627696D1 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		AF328FE50277E75D01B122F075F55649 /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		AF914E84BF16ED2107A3CB07D0B1E0CD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B18E2833A187F100FE19C8EA23F65169 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = source/UberRides/Resources/ru.lproj; sourceTree = "<group>"; };
+		B2ED85EF0F7E852896372B5B70404CFF /* UberRides-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UberRides-dummy.m"; sourceTree = "<group>"; };
+		B6B8E47C5D864E96F7DE2C6F8A565552 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79A3249124B2D3D0EDA24C067DE4639 /* NativeAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeAuthenticator.swift; path = source/UberRides/OAuth/NativeAuthenticator.swift; sourceTree = "<group>"; };
+		B85AF7A6C730AD83AED06A169F9EA812 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		B8A43D552F0F398EAFB65AD0CE3AAF18 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		BA6B4BA3243C7F3C4A4E3002E38DB70F /* DeeplinkErrorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkErrorType.swift; path = source/UberRides/DeeplinkErrorType.swift; sourceTree = "<group>"; };
+		BA80DE2C131086A1F9B874FFDA8F18E1 /* Pods-GoogleMapDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleMapDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC2780F492290BCDF2322EEDD27FD740 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		BF21498FFCA72BCB2E7787C59F06B198 /* ModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalViewController.swift; path = source/UberRides/ModalViewController.swift; sourceTree = "<group>"; };
+		BF8C68A6B9051C56D4F077F90C36ED2C /* Pods-GoogleMapDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMapDemo-resources.sh"; sourceTree = "<group>"; };
+		C06031DFCB5A0FF4FC8FE529D5AB4C21 /* UberRides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UberRides.h; path = source/UberRides/UberRides.h; sourceTree = "<group>"; };
+		C196FC5815081B2F3BEAFAC433352CC4 /* DeeplinkErrorFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkErrorFactory.swift; path = source/UberRides/DeeplinkErrorFactory.swift; sourceTree = "<group>"; };
+		C1DF7F5194437C45B6068068875F3F7C /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		C4C783C0CA6D00B2F7A4904598479EF4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C9637C11A3AB67A400F594AB21E84A53 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C9D0EA053D1B0678A1DFF6992D4B3C2F /* LoginViewAuthenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewAuthenticator.swift; path = source/UberRides/OAuth/LoginViewAuthenticator.swift; sourceTree = "<group>"; };
+		CC2A953B043718A81A5CD770B6623349 /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		CEC37FB292FF6CD3AE7582491DEB3B3B /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		D650A288992890823DAD57AABD8CC402 /* UBSDKConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UBSDKConstants.m; path = source/UberRides/UBSDKConstants.m; sourceTree = "<group>"; };
+		D681877776567BA5931ABEBC54037F6D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		D8527730B83EDCD85AEA2169241C7D43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89B99073F4266D213E7F96C62B04688 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		D9E4168836828C040A45DA2376E9EE1F /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = source/UberRides/OAuth/LoginView.swift; sourceTree = "<group>"; };
+		E0C459C9077802AE9B05EDD4333C8013 /* AuthenticationURLUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationURLUtility.swift; path = source/UberRides/Utilities/AuthenticationURLUtility.swift; sourceTree = "<group>"; };
+		EA2000D568762EE0B714A0D55F55D939 /* RideRequestView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestView.swift; path = source/UberRides/RideRequestView.swift; sourceTree = "<group>"; };
+		EA83916695C667987A8F20A5B179459B /* hi-In.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "hi-In.lproj"; path = "source/UberRides/Resources/hi-In.lproj"; sourceTree = "<group>"; };
+		EB514D49FD305D55067DA7239490DE34 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		EB6657E0E687C2D5954D096E41DB4AE0 /* DistanceEstimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistanceEstimate.swift; path = source/UberRides/Model/DistanceEstimate.swift; sourceTree = "<group>"; };
+		EBDF7B9535CB02DB7C4B61C07D6403D3 /* RideRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestViewController.swift; path = source/UberRides/RideRequestViewController.swift; sourceTree = "<group>"; };
+		EC3AAE9D863AE85E6A1334DB8CE66D97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA7ECE00049DAC1A26CCD53343DAC62 /* RideCharge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideCharge.swift; path = source/UberRides/Model/RideCharge.swift; sourceTree = "<group>"; };
+		F0A31C165BB7FE3551C7623C595AF357 /* Pods-GoogleMapDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMapDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F26D5B59C981C08DBA095151566C4697 /* RideRequestViewRequestingBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestViewRequestingBehavior.swift; path = source/UberRides/RideRequestViewRequestingBehavior.swift; sourceTree = "<group>"; };
+		F4D8B755E93FF778C66948AC2C01FBE8 /* RideRequestingProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideRequestingProtocol.swift; path = source/UberRides/RideRequestingProtocol.swift; sourceTree = "<group>"; };
+		F5221CD7DC42DE0C3354FB5C41917A95 /* UberButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UberButton.swift; path = source/UberRides/UberButton.swift; sourceTree = "<group>"; };
+		F5FDEFD798FEB8609775B660B6994D3B /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		F7FD6FBA84594445FECF084A3BA896DF /* RidesError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidesError.swift; path = source/UberRides/Model/RidesError.swift; sourceTree = "<group>"; };
+		F8D14FE6BC97B1826CBA8FB2D72010E5 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5DAC1CE484554F41D18F2B5B65324A /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		FC6C594788D261D0B428894AAA47CD1D /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		FCD4655CEC29C4BD6C9D88BA0BAA7FA2 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		FE6403358361304F16DCE633CBDA063B /* RideReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RideReceipt.swift; path = source/UberRides/Model/RideReceipt.swift; sourceTree = "<group>"; };
+		FF3D7594DE629C3A404F02DA6742CBF5 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "source/UberRides/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5BCA6F7D7A4A606619E43FF57C1D842D /* Frameworks */ = {
+		74A552B96979D260D4BCAE0910776739 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79227E0E46B668FFB9AF53B9F66C593D /* Foundation.framework in Frameworks */,
+				0A116C166EF5C6C83FCA6BDDABE220EA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C18AD77D6C058710D10A292F0029224C /* Frameworks */ = {
+		98E4CFA3DC237EFED9A767AEBB69D594 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC177AE0922F11CE21CD6E9485C693D /* Foundation.framework in Frameworks */,
+				863985BC5B315AE24F35FEF0704459BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15179030AEB26E6255A63BBABD13A0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDCDA7066C3CCFF86C398456C71A45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5666920C99F8869FC398F3B76167CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583F64879D5C9ECBF7FA666DDE57D5D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D2CAA3858E95B33088C2D2D71E470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA8116BA882D315F7031F175A8F57B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D0548B621D02F232E7BA84E7591CFF7 /* Frameworks */ = {
+		048BB56FA71CDAE9AAEAF51441B5D157 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF84258227D53D60FE4DDA5FCCF1B8B2 /* GoogleMaps.framework */,
-				F1ABCD71FC9E48FB9BB70AD26E47D858 /* GoogleMapsCore.framework */,
+				539BA9D047D6D3D1A2FFCB41D2CAFC30 /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1A26A08F2FFA185B5421D60DC2811CFC /* Base */ = {
+		07331197811CCC940888260CD9067729 /* Pods-GoogleMapDemo */ = {
 			isa = PBXGroup;
 			children = (
-				461F5C52BF8AA2DA8D3A2E38B8F2C1EB /* Frameworks */,
+				688534FC88F86D8918F46F8BE5242E34 /* Info.plist */,
+				4CC31897F62178BAA6647FE064FEE001 /* Pods-GoogleMapDemo.modulemap */,
+				A901686DC908B1628FC95ECF645EAEF8 /* Pods-GoogleMapDemo-acknowledgements.markdown */,
+				BA80DE2C131086A1F9B874FFDA8F18E1 /* Pods-GoogleMapDemo-acknowledgements.plist */,
+				525D0DF12A0349387901107742C9B040 /* Pods-GoogleMapDemo-dummy.m */,
+				F0A31C165BB7FE3551C7623C595AF357 /* Pods-GoogleMapDemo-frameworks.sh */,
+				BF8C68A6B9051C56D4F077F90C36ED2C /* Pods-GoogleMapDemo-resources.sh */,
+				9227F8366E16B56E908D68DF96564345 /* Pods-GoogleMapDemo-umbrella.h */,
+				322808ADA84975D4C426B961DCC154DF /* Pods-GoogleMapDemo.debug.xcconfig */,
+				A4B1F652898FFFD4C729B167F23DBD8D /* Pods-GoogleMapDemo.release.xcconfig */,
 			);
-			name = Base;
+			name = "Pods-GoogleMapDemo";
+			path = "Target Support Files/Pods-GoogleMapDemo";
 			sourceTree = "<group>";
 		};
-		33DA7443CAC81246BB2A89881C3B14A2 /* Maps */ = {
+		089257F9168ABD17F3310F961A0CDFEA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D0548B621D02F232E7BA84E7591CFF7 /* Frameworks */,
-				E10A3ECDE6FB12E0E68FD9F6FD50D583 /* Resources */,
-			);
-			name = Maps;
-			sourceTree = "<group>";
-		};
-		461F5C52BF8AA2DA8D3A2E38B8F2C1EB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AF93D19864E397D4BE43DFF88AC15961 /* GoogleMapsBase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		48A0FBA2E1A47EAA1D132347A6EFAE91 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AE8DDFD4006C9BBB7CF6B6B10ABD3879 /* Pods_PayBankUber.framework */,
-				DA6ADA2525CC9A58407CE2D21D8DF8C6 /* Spring.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5457C85CBEA6B1C7AD52FD9C64DA08FB /* Pods-PayBankUber */ = {
-			isa = PBXGroup;
-			children = (
-				7902C35B7998BF428D0A5F9BA796A96B /* Info.plist */,
-				5174427A85DBADF02493EB6C6A38B464 /* Pods-PayBankUber.modulemap */,
-				2E62E3D82711D7F09CE493C86A651924 /* Pods-PayBankUber-acknowledgements.markdown */,
-				69EAD86A3FFDFD135E114248408FFEF5 /* Pods-PayBankUber-acknowledgements.plist */,
-				DF0C64090813C17497F4340EE4A8E267 /* Pods-PayBankUber-dummy.m */,
-				136C2EEAFA341B59776A1647AE28C97A /* Pods-PayBankUber-frameworks.sh */,
-				F3B45B0F53E7DEB84B47A4387B01453C /* Pods-PayBankUber-resources.sh */,
-				74EBE9CEE3BF9E0B3ADA1C988833F216 /* Pods-PayBankUber-umbrella.h */,
-				D37A96E038FA3D4D99C255FAB6656D95 /* Pods-PayBankUber.debug.xcconfig */,
-				C6839B114B0E2284D7AB814B53056BF7 /* Pods-PayBankUber.release.xcconfig */,
-			);
-			name = "Pods-PayBankUber";
-			path = "Target Support Files/Pods-PayBankUber";
-			sourceTree = "<group>";
-		};
-		56673D265988EE5A05A2DCDEBD4A7DCD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D6B6247DCE07FE61792B375C8F4FE841 /* GoogleMaps */,
-				D75A891AC872D72CCAAFDCBA66F0B5D2 /* GooglePlaces */,
-				6460C5198661E44F26CFC5F90F5C8B3F /* Spring */,
+				7A532CF6C1AC1DA279A42B3ACBA84B5D /* Alamofire */,
+				BE02BD4BB42A4935DA5E8B0713782035 /* GoogleMaps */,
+				9E64C7D736812E190D9BC185C3A40E77 /* GooglePlaces */,
+				B624CCA677412AB4FE235A8C8954B9AC /* Spring */,
+				BB6B7107F798AD240784E6F6533F54B0 /* SwiftGifOrigin */,
+				7687A827323AA689B4254347330CD258 /* SwiftyJSON */,
+				1ABEBE0AC01F120D20934968ECFB3BB4 /* UberRides */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6460C5198661E44F26CFC5F90F5C8B3F /* Spring */ = {
+		0FD46DB40965362AF45E94D99017EFE9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				31FDE1537BCA0EC083B0615CC5ED77D8 /* AsyncButton.swift */,
-				E85E946CA22BD3C46870DFFA83FDAA6A /* AsyncImageView.swift */,
-				F25506EC6ED48C7B7444ED323176848B /* AutoTextView.swift */,
-				EDEAD0A3E10B53CCF78E057DE2F1D0F6 /* BlurView.swift */,
-				74964F603446BA6F8B5174A047D54FFB /* DesignableButton.swift */,
-				E5611CF5D42DFCAFCA3746BD80D94F68 /* DesignableImageView.swift */,
-				DB84575BE97DBC6DF8FE1906DDA584D2 /* DesignableLabel.swift */,
-				E8DF1B2B682D92C2A1871F67B82EE22A /* DesignableTabBarController.swift */,
-				15DDD8367F5B246DF03A2EEEFF631729 /* DesignableTextField.swift */,
-				B3A02E4ADE6EE2D8AFE84FEF2F66A147 /* DesignableTextView.swift */,
-				DD96BA2332184F97CDF45A5D03FEA6EE /* DesignableView.swift */,
-				D4008F3C65D8B096AE93AEE00B48B80C /* ImageLoader.swift */,
-				021DEFF02E4344F6918666FEE6069AC5 /* KeyboardLayoutConstraint.swift */,
-				3A9D1864D0071EAC851012D718B643BD /* LoadingView.swift */,
-				3B961FD049C9526B3478FF3178861271 /* Misc.swift */,
-				F0A56E99CDAD2D3CA21A2A7378869D7B /* SoundPlayer.swift */,
-				C3183B613B435CB0D05C0AB2F53AD83D /* Spring.swift */,
-				CC295C909699C2D7CBC0FAE1CCF55454 /* SpringAnimation.swift */,
-				1614DC31DC32CB9D30679A235E1FD23E /* SpringButton.swift */,
-				A5A2EE630DC32EB6FBF11EEE58EA3D6E /* SpringImageView.swift */,
-				EEBFC4E12003ACBB45EAA9EB3D30F34A /* SpringLabel.swift */,
-				33B96A1B4D3A35B6B55C6DFCDB0788F0 /* SpringTextField.swift */,
-				060827BB99692C33BBE5EB4511B8097F /* SpringTextView.swift */,
-				4F86666080058FCFD6796C1C77314B99 /* SpringView.swift */,
-				33A69B17690A607B4A5A67E7ECDA55A7 /* TransitionManager.swift */,
-				E9952B51EA0790BA0D10AA8E96DA330A /* TransitionZoom.swift */,
-				E177DF101153386F65310A0A6E361491 /* UnwindSegue.swift */,
-				8B7048FF2E0081FD930DF904D940E490 /* Resources */,
-				BFE813324A52BCDA324034DF9E4B9FEB /* Support Files */,
+				51157C3C8757C9D6DAEB4EE0388CF982 /* Info.plist */,
+				71A76DEA43C95B67E9152C1E3ABAF615 /* SwiftyJSON.modulemap */,
+				B85AF7A6C730AD83AED06A169F9EA812 /* SwiftyJSON.xcconfig */,
+				329F3633E633CCED677D94EB7EB84CEB /* SwiftyJSON-dummy.m */,
+				4CD03E6B6D5802BDB9694E42348FC817 /* SwiftyJSON-prefix.pch */,
+				56EE0B58000C1FDF2DDFF37ADD891D0C /* SwiftyJSON-umbrella.h */,
 			);
-			name = Spring;
-			path = Spring;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		1ABEBE0AC01F120D20934968ECFB3BB4 /* UberRides */ = {
+			isa = PBXGroup;
+			children = (
+				9422377037E3084A82B333CD6B24A5CF /* AccessToken.swift */,
+				7E56543FF616506E6280EFEFDBE8C033 /* AccessTokenFactory.swift */,
+				5ED765C1FB64C4BEABB8FAE4608BBC1C /* AppStoreDeeplink.swift */,
+				699AAF793C4F6AA61633D5B79F43AC05 /* AuthenticationDeeplink.swift */,
+				E0C459C9077802AE9B05EDD4333C8013 /* AuthenticationURLUtility.swift */,
+				8F3357175392E596150A24D6AA8461DB /* AuthorizationCodeGrantAuthenticator.swift */,
+				58CAFD5B16C4A22F0DD3BA856833A3D7 /* BaseAuthenticator.swift */,
+				9C5FA0D9F168E1622265620649AF6A91 /* BaseDeeplink.swift */,
+				3A750DB5CCD3ADE6021B7A93FF6616BA /* Codable+Uber.swift */,
+				8C072AAC1993DA4E7A0DCF93C5EC5EFD /* Configuration.swift */,
+				C196FC5815081B2F3BEAFAC433352CC4 /* DeeplinkErrorFactory.swift */,
+				BA6B4BA3243C7F3C4A4E3002E38DB70F /* DeeplinkErrorType.swift */,
+				303342AFD7EA7112017EFBCE68C08902 /* DeeplinkingProtocol.swift */,
+				63ABBDAED84A47898E1F44CDE943B9E0 /* DeeplinkRequestingBehavior.swift */,
+				EB6657E0E687C2D5954D096E41DB4AE0 /* DistanceEstimate.swift */,
+				1BAD955B20D61CDCFD32567D467AF13A /* Driver.swift */,
+				04B08A5C6E15382030B4CC92198E79F4 /* EndpointsManager.swift */,
+				71A3DF84C7BD0F2FF97517AFAB4BB0EF /* ImplicitGrantAuthenticator.swift */,
+				813C2A88158892748CFD8E19249ECD2B /* KeychainWrapper.swift */,
+				6F765EF4AFBF28890C45D4EA25947D23 /* LoginButton.swift */,
+				71B9DCF6EADB7938ED3D418E7FF49BD4 /* LoginManager.swift */,
+				A3A5EB2B891FC9487FEB39C3687BDB31 /* LoginManagingProtocol.swift */,
+				D9E4168836828C040A45DA2376E9EE1F /* LoginView.swift */,
+				C9D0EA053D1B0678A1DFF6992D4B3C2F /* LoginViewAuthenticator.swift */,
+				409C0DFC4AF803B6F563190C45B4F6E6 /* ModalRideRequestViewController.swift */,
+				BF21498FFCA72BCB2E7787C59F06B198 /* ModalViewController.swift */,
+				B79A3249124B2D3D0EDA24C067DE4639 /* NativeAuthenticator.swift */,
+				AA2D58EE6DE13FF29A6496F1C2437E51 /* OAuthViewController.swift */,
+				6B16876A821BB43047CBE7115AB3DAA6 /* PaymentMethod.swift */,
+				6BBE96A8F6E5D0CF3A5D0C05AA0C6CD7 /* Place.swift */,
+				0C2F5463D890FDD399DA3B0FBA32744C /* PriceEstimate.swift */,
+				3679C5B166E92E540077297782E2480E /* Product.swift */,
+				9C46AF45DC5DE7E9C5E4774C59A182E1 /* Request.swift */,
+				7B260EFCC427EF5EC956AD791B275686 /* RequestDeeplink.swift */,
+				2E6FAA1E12CA9D4CE1007BABB8372F3C /* Ride.swift */,
+				EFA7ECE00049DAC1A26CCD53343DAC62 /* RideCharge.swift */,
+				7D85AF9B3C63D554BED213C020193F21 /* RideEstimate.swift */,
+				0D6BC462F1C8A8C8DA96100F60F2F2B1 /* RideMap.swift */,
+				42105087CFD3AA5D5D55D61A2BCFAD3B /* RideParameters.swift */,
+				FE6403358361304F16DCE633CBDA063B /* RideReceipt.swift */,
+				7134F01DFE39D4CB342D94B63A80157F /* RideRequestButton.swift */,
+				37D83923987C0D51891F0B2979460AD4 /* RideRequestDataBuilder.swift */,
+				F4D8B755E93FF778C66948AC2C01FBE8 /* RideRequestingProtocol.swift */,
+				8AAE706E4CF261A14F551F4C615320B5 /* RideRequestLocation.swift */,
+				EA2000D568762EE0B714A0D55F55D939 /* RideRequestView.swift */,
+				EBDF7B9535CB02DB7C4B61C07D6403D3 /* RideRequestViewController.swift */,
+				6B49E1AB0663E7E1FCA21BF36A4765C3 /* RideRequestViewErrorFactory.swift */,
+				3ED1CD91D31A0AF798F9678F8595995A /* RideRequestViewErrorType.swift */,
+				F26D5B59C981C08DBA095151566C4697 /* RideRequestViewRequestingBehavior.swift */,
+				9D2F6AA8726B84BE89A163752070AE52 /* RidesAppDelegate.swift */,
+				2CE92C813667D6A1A42CBA933997ECDC /* RidesClient.swift */,
+				F7FD6FBA84594445FECF084A3BA896DF /* RidesError.swift */,
+				336A38F5DD771BD0C99C095C6F74D3CF /* RidesScope.swift */,
+				61DCA10E539AC252E3B190887C69E9C3 /* RideStatus.swift */,
+				45A4F77A1E27ACBC992BC1018E2D0DC1 /* RidesUtil.swift */,
+				A8C5408F8519E67D30D658187C5F8ADD /* TimeEstimate.swift */,
+				61E0EBD9941BA06830CA2FB56456179A /* TokenManager.swift */,
+				1AE665D3D53A2A43C5E5159167A5F577 /* UberAuthenticatingProtocol.swift */,
+				F5221CD7DC42DE0C3354FB5C41917A95 /* UberButton.swift */,
+				C06031DFCB5A0FF4FC8FE529D5AB4C21 /* UberRides.h */,
+				A79E82C17DF5478A21270D3AB420EDA7 /* UBSDKConstants.h */,
+				D650A288992890823DAD57AABD8CC402 /* UBSDKConstants.m */,
+				1CC77C939CAE09B0042AB2804CE568D1 /* UpfrontFare.swift */,
+				70955122CF91CDAEFDB77E1B872CA339 /* UserActivity.swift */,
+				92EF4829E125B6155B13DE1A3FEFB8A7 /* UserProfile.swift */,
+				14D33DDEE6A76166BC8711C1492595FA /* Vehicle.swift */,
+				D8B394DBB8F3BAA0D7B050DA9BE2164E /* Resources */,
+				1DA1E1E593294FE03186D90458951F36 /* Support Files */,
+			);
+			name = UberRides;
+			path = UberRides;
+			sourceTree = "<group>";
+		};
+		1DA1E1E593294FE03186D90458951F36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FBD6DDE1C1BA7AA2AE467F7B40E395D /* Info.plist */,
+				957C946DF42E41D0489231BD15CE0A1D /* UberRides.modulemap */,
+				1A6E30ADE1E70CBEDF75E5D2063AAADF /* UberRides.xcconfig */,
+				B2ED85EF0F7E852896372B5B70404CFF /* UberRides-dummy.m */,
+				5662B3CAE90B70DF372FC60011A6C7B2 /* UberRides-prefix.pch */,
+				3D290CDFD632347A913408FDC0231428 /* UberRides-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UberRides";
+			sourceTree = "<group>";
+		};
+		221F2D8F5BF1CD48226E090BA21153F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27972EE56154E038134DD1F0184941C9 /* GoogleMaps.framework */,
+				02264ABC9B32FA27AFD23D0C1244A059 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A2CD438C7F337859D93B7FD1CB0FCDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E0EB6726FA4B615000BBDEBA9750FA4 /* Images.xcassets */,
+				AEB4A442129D7B2B2227E45C627696D1 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4E745163439B1D16C4D993BD1D71E68C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70513E209B03DD0CF6131AFC93C24507 /* Info.plist */,
+				7319EF223E1E86802FE50E73021C1025 /* SwiftGifOrigin.modulemap */,
+				4EADDD5CD62DA9FDF48FC6EE8BC70EB7 /* SwiftGifOrigin.xcconfig */,
+				466A503B809A34AF0DCF791D6018493B /* SwiftGifOrigin-dummy.m */,
+				0478E2796F74928E649FB766F96DC708 /* SwiftGifOrigin-prefix.pch */,
+				F5FDEFD798FEB8609775B660B6994D3B /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		60468AFC2AA6189C15A93A87E8D5EE98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8728CB55163A5A6F621D124C6AAAF337 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7687A827323AA689B4254347330CD258 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				16E2CD31951604ED929832CD41C83A02 /* SwiftyJSON.swift */,
+				0FD46DB40965362AF45E94D99017EFE9 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7A532CF6C1AC1DA279A42B3ACBA84B5D /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				5E016A0080C80C8B2108BC8DA8755B3F /* AFError.swift */,
+				C4C783C0CA6D00B2F7A4904598479EF4 /* Alamofire.swift */,
+				72976BDB2BB2BA8CACD0D3FB543A0764 /* DispatchQueue+Alamofire.swift */,
+				7AA7012A3EB299488E45ED89BAF62BA1 /* MultipartFormData.swift */,
+				A62AE1694BDA7DBD5A60968BA25BDC70 /* NetworkReachabilityManager.swift */,
+				080F59CA38BED53838731103B7C43E4C /* Notifications.swift */,
+				8823BFB75BD284236348A95842281735 /* ParameterEncoding.swift */,
+				6982FD0CD6C5604FAC02E14C06EF2BC0 /* Request.swift */,
+				05044100AC4669C97235FD403B1710AD /* Response.swift */,
+				ACD0F7D6B8A792948714BC7D380BF048 /* ResponseSerialization.swift */,
+				D681877776567BA5931ABEBC54037F6D /* Result.swift */,
+				01FC3D3925DC18C4EFD697D8172F1135 /* ServerTrustPolicy.swift */,
+				31CADD98F85DDAFDDABEC42D0BFC7713 /* SessionDelegate.swift */,
+				EB514D49FD305D55067DA7239490DE34 /* SessionManager.swift */,
+				7D61C5A5C9872C39233FFCF67D2B8926 /* TaskDelegate.swift */,
+				C9637C11A3AB67A400F594AB21E84A53 /* Timeline.swift */,
+				B8A43D552F0F398EAFB65AD0CE3AAF18 /* Validation.swift */,
+				DBBA7468A0C14A3F022806C3401254A6 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		7B72B58A06AD720BF7964870EF3BF8AC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C7A374E4E807059A9420C2701A48C8F7 /* Frameworks */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -245,19 +649,84 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				56673D265988EE5A05A2DCDEBD4A7DCD /* Pods */,
-				48A0FBA2E1A47EAA1D132347A6EFAE91 /* Products */,
-				F88F64F3046B85A025C9867C03FBCAC0 /* Targets Support Files */,
+				089257F9168ABD17F3310F961A0CDFEA /* Pods */,
+				FDA373B5DC58A70BF633B4894BA929BB /* Products */,
+				EF7B829C9AFDDA7F3D9B2B555A787078 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B7048FF2E0081FD930DF904D940E490 /* Resources */ = {
+		9E64C7D736812E190D9BC185C3A40E77 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
-				CAFF5528EFD86715B72823DF14310D44 /* Images.xcassets */,
-				F6B3D7BA0E04F919ADFB41E1B6BFB8A1 /* LoadingView.xib */,
+				048BB56FA71CDAE9AAEAF51441B5D157 /* Frameworks */,
+				A1B680A5BF327A822BCCA3975E0CBCBC /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		A1B680A5BF327A822BCCA3975E0CBCBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC2780F492290BCDF2322EEDD27FD740 /* GooglePlaces.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		B624CCA677412AB4FE235A8C8954B9AC /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				CEC37FB292FF6CD3AE7582491DEB3B3B /* AsyncButton.swift */,
+				C1DF7F5194437C45B6068068875F3F7C /* AsyncImageView.swift */,
+				AC895DCFA37734B44D7A418CE71F9AFC /* AutoTextView.swift */,
+				217863FE8237E8608A54DB83943E5A9A /* BlurView.swift */,
+				4CECAF534A9BFC8C78D9AAE8B418E5E4 /* DesignableButton.swift */,
+				76CCB36A0E323C468F8EDF3CD3B9CA7B /* DesignableImageView.swift */,
+				D89B99073F4266D213E7F96C62B04688 /* DesignableLabel.swift */,
+				81CB72479A172325D703437F2E01CA07 /* DesignableTabBarController.swift */,
+				93E11CAACF33FA30E14A4B20D3DB14D4 /* DesignableTextField.swift */,
+				790408B0453A81C9228FD7713E799E0F /* DesignableTextView.swift */,
+				6EA131D0BB4B7BD0FC0D56ACB8C36656 /* DesignableView.swift */,
+				0C59CF5B44EE6AFF64B0CD8D58D08FAB /* ImageLoader.swift */,
+				3994D9DCC8EDBD81D545AD576A1458F1 /* KeyboardLayoutConstraint.swift */,
+				AC525145A8C0D751BDB78FACB376F5ED /* LoadingView.swift */,
+				58D11CE4C033C26B5404F3E8CB5BB869 /* Misc.swift */,
+				6BF8B4037CD6C486DFABA7C42741B548 /* SoundPlayer.swift */,
+				131F668E145DDC4654815BBF12D940C2 /* Spring.swift */,
+				A48E1A5371393141FCE28435EF37FE08 /* SpringAnimation.swift */,
+				9340B622AC90DEB3F3569351C89145B4 /* SpringButton.swift */,
+				473E7D385E388DCC4DFE2CD25641447D /* SpringImageView.swift */,
+				AF328FE50277E75D01B122F075F55649 /* SpringLabel.swift */,
+				4EB7AC5EAF7D0B11AB5BE7C84AB29EB6 /* SpringTextField.swift */,
+				4B0385DEAEF44697E5499917DD79432F /* SpringTextView.swift */,
+				776DA947F38E22594FC7DD7D12EEF271 /* SpringView.swift */,
+				FCD4655CEC29C4BD6C9D88BA0BAA7FA2 /* TransitionManager.swift */,
+				19F87BCD8BEA5D20BA0C62A3E1E77FB2 /* TransitionZoom.swift */,
+				4B01154E597DF474ECA50E87BA9B9561 /* UnwindSegue.swift */,
+				2A2CD438C7F337859D93B7FD1CB0FCDF /* Resources */,
+				C80023A87B194F8EFDFD0E1E7E1706D9 /* Support Files */,
+			);
+			name = Spring;
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		B900FD92774D92B02BE13DF4ADEEB7BD /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				221F2D8F5BF1CD48226E090BA21153F9 /* Frameworks */,
+				60468AFC2AA6189C15A93A87E8D5EE98 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		BB6B7107F798AD240784E6F6533F54B0 /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				FC5DAC1CE484554F41D18F2B5B65324A /* UIImage+Gif.swift */,
+				4E745163439B1D16C4D993BD1D71E68C /* Support Files */,
+			);
+			name = SwiftGifOrigin;
+			path = SwiftGifOrigin;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -268,26 +737,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFE813324A52BCDA324034DF9E4B9FEB /* Support Files */ = {
+		BE02BD4BB42A4935DA5E8B0713782035 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				071CD533A9646B3BD7CB89CA9C1020A3 /* Info.plist */,
-				5B3392E48B50E2A02D29FA2FA14E34B9 /* Spring.modulemap */,
-				94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */,
-				1BB3BB870E174E8B2186D91BA202C77B /* Spring-dummy.m */,
-				DD92C11AD88A5A4FB0AC52404C27868E /* Spring-prefix.pch */,
-				473688427E142377581B62B8CB6A7864 /* Spring-umbrella.h */,
+				7B72B58A06AD720BF7964870EF3BF8AC /* Base */,
+				B900FD92774D92B02BE13DF4ADEEB7BD /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		C7A374E4E807059A9420C2701A48C8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755A78CD21520464CB69E1C7C42289DE /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C80023A87B194F8EFDFD0E1E7E1706D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8527730B83EDCD85AEA2169241C7D43 /* Info.plist */,
+				8275703239DB128949F9F7BE0AB67424 /* Spring.modulemap */,
+				6ECB2734BCCD1A3071633A542A414D6A /* Spring.xcconfig */,
+				FC6C594788D261D0B428894AAA47CD1D /* Spring-dummy.m */,
+				2454ABAAD6562DD80922144BECFAD882 /* Spring-prefix.pch */,
+				CC2A953B043718A81A5CD770B6623349 /* Spring-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Spring";
-			sourceTree = "<group>";
-		};
-		C8C8F16B76A4965D9D6620B74291C037 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				11406CEBD43A3436405D10ECDF6FE98F /* GooglePlaces.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -298,80 +777,158 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D6B6247DCE07FE61792B375C8F4FE841 /* GoogleMaps */ = {
+		D8B394DBB8F3BAA0D7B050DA9BE2164E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1A26A08F2FFA185B5421D60DC2811CFC /* Base */,
-				33DA7443CAC81246BB2A89881C3B14A2 /* Maps */,
-			);
-			name = GoogleMaps;
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		D75A891AC872D72CCAAFDCBA66F0B5D2 /* GooglePlaces */ = {
-			isa = PBXGroup;
-			children = (
-				F24FA86BF316774E30DB302DF65EB170 /* Frameworks */,
-				C8C8F16B76A4965D9D6620B74291C037 /* Resources */,
-			);
-			name = GooglePlaces;
-			path = GooglePlaces;
-			sourceTree = "<group>";
-		};
-		E10A3ECDE6FB12E0E68FD9F6FD50D583 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9AD39722D8367157E945F808FCD2E9B8 /* GoogleMaps.bundle */,
+				5FD0290DC7E2821843E0CF2858811504 /* en.lproj */,
+				EA83916695C667987A8F20A5B179459B /* hi-In.lproj */,
+				52252F7DC59773ECEAB761035FBB0D3B /* Media.xcassets */,
+				2549EBD509F10668C69B4512ECC5C545 /* pt-br.lproj */,
+				B18E2833A187F100FE19C8EA23F65169 /* ru.lproj */,
+				928F6201E65F4D2FCB99E1DA8C4A191F /* zh-Hans.lproj */,
+				FF3D7594DE629C3A404F02DA6742CBF5 /* zh-Hant.lproj */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		F24FA86BF316774E30DB302DF65EB170 /* Frameworks */ = {
+		DBBA7468A0C14A3F022806C3401254A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7D5952B5A25051680063C11813778029 /* GooglePlaces.framework */,
+				9F5923BC4A47E95A00A723B38BC6B6B6 /* Alamofire.modulemap */,
+				95E0A3E0F4CABFD1FF56E884627B4D2E /* Alamofire.xcconfig */,
+				0D8D298B8E84D1E4A39535A8DDD7342C /* Alamofire-dummy.m */,
+				90884FAB96D2BA517A439FF2D0D9C9B0 /* Alamofire-prefix.pch */,
+				AF914E84BF16ED2107A3CB07D0B1E0CD /* Alamofire-umbrella.h */,
+				EC3AAE9D863AE85E6A1334DB8CE66D97 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		F88F64F3046B85A025C9867C03FBCAC0 /* Targets Support Files */ = {
+		EF7B829C9AFDDA7F3D9B2B555A787078 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5457C85CBEA6B1C7AD52FD9C64DA08FB /* Pods-PayBankUber */,
+				07331197811CCC940888260CD9067729 /* Pods-GoogleMapDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDA373B5DC58A70BF633B4894BA929BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B8E47C5D864E96F7DE2C6F8A565552 /* Alamofire.framework */,
+				AC5DA02A3F1915E547F5F8C2877CC4DF /* Pods_GoogleMapDemo.framework */,
+				F8D14FE6BC97B1826CBA8FB2D72010E5 /* Spring.framework */,
+				05FC9D94FDBC469E9B1AEAFF30E9CD1D /* SwiftGifOrigin.framework */,
+				00866A65E930BBCA52F895C2F7F0C65A /* SwiftyJSON.framework */,
+				4A2CA5CF82290C188DACD3C60B0813E0 /* UberRides.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8A9E9598506CA56280611374BFEA6182 /* Headers */ = {
+		303836879B3DDB2B13758DBC4C199773 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5B65F6BC5A3A3CFE2F8E54A7C9DDEE /* Pods-PayBankUber-umbrella.h in Headers */,
+				250D88899C742CB904073730EB70B0A1 /* UberRides-umbrella.h in Headers */,
+				AC466D5F8A216BB433135467CF1C18CB /* UberRides.h in Headers */,
+				AE554F0A2B6A7068C9491012D5FCD8E1 /* UBSDKConstants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FE0920262A78340B8B331AA9275C459 /* Headers */ = {
+		449704E381FB497577E295C07936711C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				085EB71D7B74B7D0654F6282B6304785 /* Spring-umbrella.h in Headers */,
+				B9DB1EF682CFF1A16BFE182C380A8F52 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7670E23EDD413E7CC771BFD32BA874C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691714B9D1EE764CE71928CCC067B9E5 /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEEB22ABD89DB752EAAF5B2C4B51528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DAEA74DE446B90AE833ECA33EAB1D3 /* SwiftGifOrigin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF85EAAB7EDEC2BC58B56468CB0EBF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB210CEDE82094A0BA0932B48D02F3B /* Pods-GoogleMapDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3E33FBE4B03DDF3FC20A3FDE072EF912 /* Spring */ = {
+		080DC5D54F8561CB42DFFA2C7D1DA60C /* Pods-GoogleMapDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 139C21E7E426CF9F88CEF5BFB84428FC /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildConfigurationList = BE1A3E41DDF64E9367C857DF8578DBE8 /* Build configuration list for PBXNativeTarget "Pods-GoogleMapDemo" */;
 			buildPhases = (
-				8E3EFDB4371729FEC18FB6F63BF0FCB2 /* Sources */,
-				C18AD77D6C058710D10A292F0029224C /* Frameworks */,
-				3F7DED15419BADC3A70EF176C8A2E336 /* Resources */,
-				9FE0920262A78340B8B331AA9275C459 /* Headers */,
+				5A43D24DCC1AC6C8E404E389983C163C /* Sources */,
+				E15179030AEB26E6255A63BBABD13A0C /* Frameworks */,
+				9CF85EAAB7EDEC2BC58B56468CB0EBF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171D453B7E65842CA2803806A181B240 /* PBXTargetDependency */,
+				05A1706287C8231CAB8FFC4F497CFED6 /* PBXTargetDependency */,
+				95E72B7A246A6D06D2F1B7C98E49312A /* PBXTargetDependency */,
+				D151A06B51A1357A30E995E62B20E9C0 /* PBXTargetDependency */,
+				EAEF436E0322E7ACCC0A86FE9369D103 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleMapDemo";
+			productName = "Pods-GoogleMapDemo";
+			productReference = AC5DA02A3F1915E547F5F8C2877CC4DF /* Pods_GoogleMapDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46A29371A6856A5E38EDF38CD61B0D13 /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73CF0F042DD9A5C03D14606C8D28AB69 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				202EC81A88B8B4B20C2623E54158F8E4 /* Sources */,
+				74A552B96979D260D4BCAE0910776739 /* Frameworks */,
+				8DEEB22ABD89DB752EAAF5B2C4B51528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = 05FC9D94FDBC469E9B1AEAFF30E9CD1D /* SwiftGifOrigin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B2566AADBCBE714B554D78438AAF899 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7F3DB93C5FEB8006760E5C66CD2963 /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				F7957FCE194B21141428BD144511C107 /* Sources */,
+				F8D2CAA3858E95B33088C2D2D71E470E /* Frameworks */,
+				58AA0B70E381E90FD807A66BC1CA8B22 /* Resources */,
+				7670E23EDD413E7CC771BFD32BA874C9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -379,25 +936,59 @@
 			);
 			name = Spring;
 			productName = Spring;
-			productReference = DA6ADA2525CC9A58407CE2D21D8DF8C6 /* Spring.framework */;
+			productReference = F8D14FE6BC97B1826CBA8FB2D72010E5 /* Spring.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C4824FE249A395E6EF4C157653E133C4 /* Pods-PayBankUber */ = {
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7887B45A9BC1663B5AC6ED6462CB8667 /* Build configuration list for PBXNativeTarget "Pods-PayBankUber" */;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				BDA16A3ED85445AC99F1132444D05C86 /* Sources */,
-				5BCA6F7D7A4A606619E43FF57C1D842D /* Frameworks */,
-				8A9E9598506CA56280611374BFEA6182 /* Headers */,
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				630A45F4F8B0178246045A7E5DB3AF31 /* PBXTargetDependency */,
 			);
-			name = "Pods-PayBankUber";
-			productName = "Pods-PayBankUber";
-			productReference = AE8DDFD4006C9BBB7CF6B6B10ABD3879 /* Pods_PayBankUber.framework */;
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = B6B8E47C5D864E96F7DE2C6F8A565552 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BBFE1776937B2524B357585469120A9 /* UberRides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B38426FC956BCB905CE14161F13D73 /* Build configuration list for PBXNativeTarget "UberRides" */;
+			buildPhases = (
+				4AB81BB1E1335A92A93FCCCD1AD0A454 /* Sources */,
+				E5666920C99F8869FC398F3B76167CD4 /* Frameworks */,
+				303836879B3DDB2B13758DBC4C199773 /* Headers */,
+				8E61ADCF9AC391B8F0F092AB8F7985A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberRides;
+			productName = UberRides;
+			productReference = 4A2CA5CF82290C188DACD3C60B0813E0 /* UberRides.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B14EE40209D86645B71B60C76DC16A86 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16B7B243F324E9C9EC6FF0A0927F8B2 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				504827370B4B27D21D38834E60A0F455 /* Sources */,
+				98E4CFA3DC237EFED9A767AEBB69D594 /* Frameworks */,
+				449704E381FB497577E295C07936711C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 00866A65E930BBCA52F895C2F7F0C65A /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -417,84 +1008,372 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 48A0FBA2E1A47EAA1D132347A6EFAE91 /* Products */;
+			productRefGroup = FDA373B5DC58A70BF633B4894BA929BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4824FE249A395E6EF4C157653E133C4 /* Pods-PayBankUber */,
-				3E33FBE4B03DDF3FC20A3FDE072EF912 /* Spring */,
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				080DC5D54F8561CB42DFFA2C7D1DA60C /* Pods-GoogleMapDemo */,
+				5B2566AADBCBE714B554D78438AAF899 /* Spring */,
+				46A29371A6856A5E38EDF38CD61B0D13 /* SwiftGifOrigin */,
+				B14EE40209D86645B71B60C76DC16A86 /* SwiftyJSON */,
+				9BBFE1776937B2524B357585469120A9 /* UberRides */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F7DED15419BADC3A70EF176C8A2E336 /* Resources */ = {
+		58AA0B70E381E90FD807A66BC1CA8B22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164F0F91F578B1D0D3CE59E82BDE7D81 /* Images.xcassets in Resources */,
-				A13309A34DB5B30BA48EC558AB044725 /* LoadingView.xib in Resources */,
+				755EF401B55C88AF5A21E8C768F508C4 /* Images.xcassets in Resources */,
+				BB8E3CCB80860B3501EF0F33E0FD8803 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E61ADCF9AC391B8F0F092AB8F7985A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BED7ADD06B9DEF017DFF678F33DDAFE /* en.lproj in Resources */,
+				0DEAA752F417B691D0A1DDEADB4D6F4F /* hi-In.lproj in Resources */,
+				57E96E4177B6EA4AC5B18CA85AAF4ABC /* Media.xcassets in Resources */,
+				313E1E8C951D25594BE09766FA9A32A5 /* pt-br.lproj in Resources */,
+				A23AE1A8D174D4B97BBF7F2F773DF2FD /* ru.lproj in Resources */,
+				A8089E13A600654345952C67AED9CF82 /* zh-Hans.lproj in Resources */,
+				7C23D7D35A6EBD567094F7CFE92B352E /* zh-Hant.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8E3EFDB4371729FEC18FB6F63BF0FCB2 /* Sources */ = {
+		202EC81A88B8B4B20C2623E54158F8E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCB405603E5D8B9E3B474943320AFE4 /* AsyncButton.swift in Sources */,
-				BBFB190FCF3FAD4FA5AF3B4E025CD58A /* AsyncImageView.swift in Sources */,
-				4AD963BDD01185792226E2E3F158CA48 /* AutoTextView.swift in Sources */,
-				ED4D846446762DFC0114A2BA0925D237 /* BlurView.swift in Sources */,
-				58A9AC520BC4B6CCCB4779B44845FC1D /* DesignableButton.swift in Sources */,
-				20080E54BAE959039CE3070312328878 /* DesignableImageView.swift in Sources */,
-				1B6E8FCB23C590A03612DEAEA259C544 /* DesignableLabel.swift in Sources */,
-				CC0DBEB18C075E50C14C025E85EE8E29 /* DesignableTabBarController.swift in Sources */,
-				905DBD1FBC56B8A29642BEAD960844E0 /* DesignableTextField.swift in Sources */,
-				A228BBEDC5C84F122066249981A1DF2E /* DesignableTextView.swift in Sources */,
-				96672EFA8BD12051C54CD92ADD738BC2 /* DesignableView.swift in Sources */,
-				685354A3E66A021B0A732FCCAD3EFCE2 /* ImageLoader.swift in Sources */,
-				C493EF1DE5C39107A4725A889FF6CE5C /* KeyboardLayoutConstraint.swift in Sources */,
-				DC00377F7BDD81978BDE4899EE3B9261 /* LoadingView.swift in Sources */,
-				D521E7CCF77F388245C8A5F33B2BD111 /* Misc.swift in Sources */,
-				3FE24FF2625368456B2E32BE8530F739 /* SoundPlayer.swift in Sources */,
-				EDD241F55E9778921F0B0E25AB46855A /* Spring-dummy.m in Sources */,
-				A96ED58E3E4B55E7E33E33D50EE4C2DF /* Spring.swift in Sources */,
-				69C91D3D82041BD42C687F03A34E8D44 /* SpringAnimation.swift in Sources */,
-				77B67E69F02FF638634B6C20420C60D2 /* SpringButton.swift in Sources */,
-				3016CD163A8123A470D3C615ED7325B7 /* SpringImageView.swift in Sources */,
-				EA0E4F44A478293AF99297EDB4E8A7EE /* SpringLabel.swift in Sources */,
-				C89DCF7F7EEAFA5751F2F3A4BCFEB8DA /* SpringTextField.swift in Sources */,
-				28CB7C2B7D6F020EB11DD6FD01AF25A6 /* SpringTextView.swift in Sources */,
-				A177CA46D13C690AB76C478EFC31D037 /* SpringView.swift in Sources */,
-				9EC79650638C4E8E78FFF49F5E5AB897 /* TransitionManager.swift in Sources */,
-				D688F7AAF20A950020F038F11D8F9451 /* TransitionZoom.swift in Sources */,
-				578D3F5E9CBA7C3B25953EBD86094884 /* UnwindSegue.swift in Sources */,
+				A6B45E62C49B196E4FAA7E5E78AFAE23 /* SwiftGifOrigin-dummy.m in Sources */,
+				1FBBC6EDD6CD346942FEE3FE0ABCEA05 /* UIImage+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDA16A3ED85445AC99F1132444D05C86 /* Sources */ = {
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B55C2F761AFB36273C1D7ED4A17E59 /* Pods-PayBankUber-dummy.m in Sources */,
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB81BB1E1335A92A93FCCCD1AD0A454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB90E01E7FC589E18E1AFFC66026157 /* AccessToken.swift in Sources */,
+				AED14C366BC7FCEE73BB1DB692BFEC12 /* AccessTokenFactory.swift in Sources */,
+				571F106F04FC1EDD1DCC7E309FF468DA /* AppStoreDeeplink.swift in Sources */,
+				373D4EA6EFBFBC7018D39B80740FBB62 /* AuthenticationDeeplink.swift in Sources */,
+				5EDC50359C766A83106742C46A9E21DC /* AuthenticationURLUtility.swift in Sources */,
+				CBCB4945A9C2ADE73A7BCF22E697C6F8 /* AuthorizationCodeGrantAuthenticator.swift in Sources */,
+				AA6F2C1961F1E76E499A4B7EA4F0288F /* BaseAuthenticator.swift in Sources */,
+				3A14486C2A6CEDC503C4DE5D1E2C8000 /* BaseDeeplink.swift in Sources */,
+				EC8C83EB57C9DF5BB06C5D6EEB742D30 /* Codable+Uber.swift in Sources */,
+				AC9BD73A3D28EDE027DB07F44A80945C /* Configuration.swift in Sources */,
+				BEFA195918A53C005E0FD773000AE73B /* DeeplinkErrorFactory.swift in Sources */,
+				AD66285CC2F5A4AB6380063CBEFD933D /* DeeplinkErrorType.swift in Sources */,
+				447CE1BFE8757B97F79FB4FE413E55C4 /* DeeplinkingProtocol.swift in Sources */,
+				C7FBD81D6FCBEE282EFFFC49BE4D3CD4 /* DeeplinkRequestingBehavior.swift in Sources */,
+				5F22BF03E25B788067D21ABC25B368F6 /* DistanceEstimate.swift in Sources */,
+				C05773F1F209A1D0B5CAE33C4DCFA071 /* Driver.swift in Sources */,
+				30D7142FB6A7BD1D1CAF34507D31673B /* EndpointsManager.swift in Sources */,
+				D774EE817877F13942B690364AE51F10 /* ImplicitGrantAuthenticator.swift in Sources */,
+				14E5878DE959F8A72B482AA9CA7C6314 /* KeychainWrapper.swift in Sources */,
+				42B3E70ACAD57F3DB9A5B11A373FBAC1 /* LoginButton.swift in Sources */,
+				33FB7811D3DE3C42D5F432B7595BEEB6 /* LoginManager.swift in Sources */,
+				3489369AD21650658D5C9ED779343F77 /* LoginManagingProtocol.swift in Sources */,
+				3CF45ED62AE69CFFFBAEA7C6731C18B7 /* LoginView.swift in Sources */,
+				C9A5ECA7C0CE1A7426AEC1BA8AA9D18F /* LoginViewAuthenticator.swift in Sources */,
+				1FCA9414933EA96D662A9348A09C0AD7 /* ModalRideRequestViewController.swift in Sources */,
+				1906FEB78577D3B16045D96002DE0D03 /* ModalViewController.swift in Sources */,
+				8DD08169CE7DDD2CE22C9FDDD2ABA66C /* NativeAuthenticator.swift in Sources */,
+				EFD6793230BF742FEF7CA4E787BBD862 /* OAuthViewController.swift in Sources */,
+				8DD5EB1B520D8576CAD91A9781ED45C0 /* PaymentMethod.swift in Sources */,
+				40BF7E524DB93B809496AC4BF8B80FA4 /* Place.swift in Sources */,
+				7FCB212390EB5CF541132A4EC27C2FEE /* PriceEstimate.swift in Sources */,
+				FDC16F34D2C155AABE2A41B075905375 /* Product.swift in Sources */,
+				459D120C35227E8C978D826EDD0D94C5 /* Request.swift in Sources */,
+				5E5E1C4831A9C8B1DA0E1014B4DFE97E /* RequestDeeplink.swift in Sources */,
+				AF3F44D0092D2BBD33BE5F7C55655764 /* Ride.swift in Sources */,
+				74EF68D84056829EFF0ACB18E4B4AC17 /* RideCharge.swift in Sources */,
+				2331E0365C16141740D8FC1B8B8D3E56 /* RideEstimate.swift in Sources */,
+				F87B77E2FA30AAEEA64011DE52A0C002 /* RideMap.swift in Sources */,
+				A9C1DB2B00A318E6B3B356037A3C731F /* RideParameters.swift in Sources */,
+				8A04AA3058D046FF62055DD744201989 /* RideReceipt.swift in Sources */,
+				E19E284D4353A255CBAC868B309D9D95 /* RideRequestButton.swift in Sources */,
+				268F36726A2E735FF379ED16AEEFE212 /* RideRequestDataBuilder.swift in Sources */,
+				0E9BEA5690E1DF719D2522A2ADDE4FA4 /* RideRequestingProtocol.swift in Sources */,
+				529C546087A5393BA44F228443A0EB6F /* RideRequestLocation.swift in Sources */,
+				559E50A4325D6807B753B64B54B9D7F2 /* RideRequestView.swift in Sources */,
+				FF9B5C9D9FD3C298DEBCE56B5ECF7F0D /* RideRequestViewController.swift in Sources */,
+				C01B59798710C8582301895A054616F3 /* RideRequestViewErrorFactory.swift in Sources */,
+				6571EC3CE46F807518C02D917A6A053F /* RideRequestViewErrorType.swift in Sources */,
+				E884567BD18DA281F4DD620909B9C2CE /* RideRequestViewRequestingBehavior.swift in Sources */,
+				89A9E523A8F0749001E1F16E84114060 /* RidesAppDelegate.swift in Sources */,
+				01B4B96632DCC44844AE218386728CFB /* RidesClient.swift in Sources */,
+				3E155782CB1A8B5A7150DF40D7255BEF /* RidesError.swift in Sources */,
+				63F5E46E8868E6DD6AC47215F9379E1B /* RidesScope.swift in Sources */,
+				D4330FAE320C0058DF8CBFAD2312FE1C /* RideStatus.swift in Sources */,
+				DADBD75360FD2FB0E708EFEE6BA34BB6 /* RidesUtil.swift in Sources */,
+				6FD1B1736C0DC8810F4CD21CE3288BDD /* TimeEstimate.swift in Sources */,
+				8DE3BB881E87B385C4B8B5242899B03A /* TokenManager.swift in Sources */,
+				D2121C6604926227B3E86E09AB4A53E5 /* UberAuthenticatingProtocol.swift in Sources */,
+				595F64DD1EF59F68CDAB8513AD750CF5 /* UberButton.swift in Sources */,
+				54C8D11A4D0A46B0162372B61363D465 /* UberRides-dummy.m in Sources */,
+				363CF6345E9C9E41B5AA4E13B33A8AFB /* UBSDKConstants.m in Sources */,
+				3E6D3EFAAD5557667CB15D877C5200A0 /* UpfrontFare.swift in Sources */,
+				9D85824DE0A0A568C446DDBA5A39F370 /* UserActivity.swift in Sources */,
+				2D577D719E8A55518E688E7C6527BF82 /* UserProfile.swift in Sources */,
+				C9F170194B6B5A7A51C830D4A567948D /* Vehicle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504827370B4B27D21D38834E60A0F455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683C8FA08DD2CDF71B0A8444DA957C29 /* SwiftyJSON-dummy.m in Sources */,
+				A8B2F1635D5326AE7CC64804F0E957C7 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43D24DCC1AC6C8E404E389983C163C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A63CEFE16409686EFAB626C7CD63C /* Pods-GoogleMapDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7957FCE194B21141428BD144511C107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD493D6BDEB1B08120FC4C30D43611F /* AsyncButton.swift in Sources */,
+				5D2C31443925E7EA2834394E24CE1292 /* AsyncImageView.swift in Sources */,
+				B83F80243721816A5BD2F986B2B08522 /* AutoTextView.swift in Sources */,
+				7351CBC81C12C35583A226A7130CDA4F /* BlurView.swift in Sources */,
+				8164EB87F080B5E32BE2A065D34AEFA8 /* DesignableButton.swift in Sources */,
+				0818253C58AF6117287EF4415435F8D3 /* DesignableImageView.swift in Sources */,
+				D2B00E9EF789EBEC5EE4C87361441E51 /* DesignableLabel.swift in Sources */,
+				240F831531DAE976F74EE732C16A47CB /* DesignableTabBarController.swift in Sources */,
+				8C6C3959E29193C35B2B5A4625E4D458 /* DesignableTextField.swift in Sources */,
+				A60CC0B3C9F73DED874CE8A2337AD596 /* DesignableTextView.swift in Sources */,
+				48C64CC17DBF9E0D62B0709FEDD178D4 /* DesignableView.swift in Sources */,
+				77B3B634E9F635874A9AE121D6F2650C /* ImageLoader.swift in Sources */,
+				DE74919EB3DE9997ED8DB530414A45BC /* KeyboardLayoutConstraint.swift in Sources */,
+				8FC3EAE8AF903643F1CB43270018370D /* LoadingView.swift in Sources */,
+				C628637B4BC55A7E05549E6E15E08E10 /* Misc.swift in Sources */,
+				C9CEA57B722887156D4B1C6CE7828294 /* SoundPlayer.swift in Sources */,
+				F9CEDC0D7770F6142F64487FC402A3FE /* Spring-dummy.m in Sources */,
+				7856553133DF679EE473E38E6E928691 /* Spring.swift in Sources */,
+				A6A820670FAE32702EB9E8EA961948FE /* SpringAnimation.swift in Sources */,
+				92BDDA2F0D31D5D177AEB9CF69E258D6 /* SpringButton.swift in Sources */,
+				028CD512CCBD844C080207F62BD17D5C /* SpringImageView.swift in Sources */,
+				1425A7A3053B2FB37C79999F093DB9AD /* SpringLabel.swift in Sources */,
+				9171532A720E2DA370067F2103789A2D /* SpringTextField.swift in Sources */,
+				1920FBCB51069B09B4C3B081BFCE562C /* SpringTextView.swift in Sources */,
+				58229CDC6B65206D607C7F36FCD7E90B /* SpringView.swift in Sources */,
+				69F9D09202054045D3C16A5F387EC2C5 /* TransitionManager.swift in Sources */,
+				E83A9CBE3806829FEAF97ED1475468AF /* TransitionZoom.swift in Sources */,
+				84653349BA0EF42B1F0DB1149D17AB75 /* UnwindSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		630A45F4F8B0178246045A7E5DB3AF31 /* PBXTargetDependency */ = {
+		05A1706287C8231CAB8FFC4F497CFED6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Spring;
-			target = 3E33FBE4B03DDF3FC20A3FDE072EF912 /* Spring */;
-			targetProxy = 2026D09BBA959C4BB80E765799E78151 /* PBXContainerItemProxy */;
+			target = 5B2566AADBCBE714B554D78438AAF899 /* Spring */;
+			targetProxy = 506D7E3E27F2B66D61F2C5BA2DBBEDA2 /* PBXContainerItemProxy */;
+		};
+		171D453B7E65842CA2803806A181B240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 5B68F4C67BAE5FC64ACDA6F42E988407 /* PBXContainerItemProxy */;
+		};
+		95E72B7A246A6D06D2F1B7C98E49312A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 46A29371A6856A5E38EDF38CD61B0D13 /* SwiftGifOrigin */;
+			targetProxy = C4433F922C2297D30AA9362B1CC6DEC8 /* PBXContainerItemProxy */;
+		};
+		D151A06B51A1357A30E995E62B20E9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = B14EE40209D86645B71B60C76DC16A86 /* SwiftyJSON */;
+			targetProxy = BCBC01B78AEA524D4F520E1B7374FB0E /* PBXContainerItemProxy */;
+		};
+		EAEF436E0322E7ACCC0A86FE9369D103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberRides;
+			target = 9BBFE1776937B2524B357585469120A9 /* UberRides */;
+			targetProxy = E54BE729A171FC4144BD6A47BCCC9F08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1740361AD85631FBF0E08394DF2C3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ECB2734BCCD1A3071633A542A414D6A /* Spring.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C4F78C1C0B94E885D8EBFC81D5B0CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322808ADA84975D4C426B961DCC154DF /* Pods-GoogleMapDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleMapDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleMapDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F219B8E75FA0120F88B6E7CBE06F18A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85AF7A6C730AD83AED06A169F9EA812 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65F39DB492FD394C406AF44FE7077A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B1F652898FFFD4C729B167F23DBD8D /* Pods-GoogleMapDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleMapDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleMapDemo/Pods-GoogleMapDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleMapDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6F9224530522DD3C735EC96CF142642E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -550,9 +1429,9 @@
 			};
 			name = Release;
 		};
-		96EE14C0582CF9A82212AAF35FD79CDA /* Debug */ = {
+		7BC1CBD707E00976A003D9F1D24B1AEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */;
+			baseConfigurationReference = 1A6E30ADE1E70CBEDF75E5D2063AAADF /* UberRides.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -563,13 +1442,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UberRides/UberRides-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberRides/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
-				PRODUCT_NAME = Spring;
+				MODULEMAP_FILE = "Target Support Files/UberRides/UberRides.modulemap";
+				PRODUCT_NAME = UberRides;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -581,9 +1460,9 @@
 			};
 			name = Debug;
 		};
-		A33BA6BEEEFAAC80D84B9757D1DC6F79 /* Release */ = {
+		8021056AD48D18B3E1F5AD66F6CEBB41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94580FDEE1E21CC0BFCDCB78DAF408F6 /* Spring.xcconfig */;
+			baseConfigurationReference = 6ECB2734BCCD1A3071633A542A414D6A /* Spring.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -612,6 +1491,100 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		88CF1B77C4FBC525EA9C89659FF6DF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EADDD5CD62DA9FDF48FC6EE8BC70EB7 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BCDA742F705AA7FBCCFC677498C51E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6E30ADE1E70CBEDF75E5D2063AAADF /* UberRides.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UberRides/UberRides-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberRides/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UberRides/UberRides.modulemap";
+				PRODUCT_NAME = UberRides;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E0A3E0F4CABFD1FF56E884627B4D2E /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -673,9 +1646,9 @@
 			};
 			name = Debug;
 		};
-		BEE05AD14EF32533961F6C70722F8AA5 /* Release */ = {
+		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6839B114B0E2284D7AB814B53056BF7 /* Pods-PayBankUber.release.xcconfig */;
+			baseConfigurationReference = 95E0A3E0F4CABFD1FF56E884627B4D2E /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -686,20 +1659,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PayBankUber/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PayBankUber/Pods-PayBankUber.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PayBankUber;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -707,9 +1678,9 @@
 			};
 			name = Release;
 		};
-		F8FE3F1FD8E28599283D54027556A98A /* Debug */ = {
+		CE53D58E48135318EEDC16E74875F76E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D37A96E038FA3D4D99C255FAB6656D95 /* Pods-PayBankUber.debug.xcconfig */;
+			baseConfigurationReference = 4EADDD5CD62DA9FDF48FC6EE8BC70EB7 /* SwiftGifOrigin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -720,21 +1691,50 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PayBankUber/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PayBankUber/Pods-PayBankUber.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PayBankUber;
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_NAME = SwiftGifOrigin;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0AB2FDBB67268C197B9F848DC9B2540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85AF7A6C730AD83AED06A169F9EA812 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -744,15 +1744,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		139C21E7E426CF9F88CEF5BFB84428FC /* Build configuration list for PBXNativeTarget "Spring" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96EE14C0582CF9A82212AAF35FD79CDA /* Debug */,
-				A33BA6BEEEFAAC80D84B9757D1DC6F79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -762,11 +1753,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7887B45A9BC1663B5AC6ED6462CB8667 /* Build configuration list for PBXNativeTarget "Pods-PayBankUber" */ = {
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8FE3F1FD8E28599283D54027556A98A /* Debug */,
-				BEE05AD14EF32533961F6C70722F8AA5 /* Release */,
+				B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */,
+				B8CA02655A4B738D82484691EE8CA58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73CF0F042DD9A5C03D14606C8D28AB69 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88CF1B77C4FBC525EA9C89659FF6DF44 /* Debug */,
+				CE53D58E48135318EEDC16E74875F76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16B7B243F324E9C9EC6FF0A0927F8B2 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AB2FDBB67268C197B9F848DC9B2540 /* Debug */,
+				5F219B8E75FA0120F88B6E7CBE06F18A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A3E41DDF64E9367C857DF8578DBE8 /* Build configuration list for PBXNativeTarget "Pods-GoogleMapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C4F78C1C0B94E885D8EBFC81D5B0CC9 /* Debug */,
+				65F39DB492FD394C406AF44FE7077A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7F3DB93C5FEB8006760E5C66CD2963 /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1740361AD85631FBF0E08394DF2C3CA8 /* Debug */,
+				8021056AD48D18B3E1F5AD66F6CEBB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B38426FC956BCB905CE14161F13D73 /* Build configuration list for PBXNativeTarget "UberRides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC1CBD707E00976A003D9F1D24B1AEF /* Debug */,
+				9BCDA742F705AA7FBCCFC677498C51E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
