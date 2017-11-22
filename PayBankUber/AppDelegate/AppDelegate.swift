@@ -24,8 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		self.window?.rootViewController = navigationController
 		self.window?.makeKeyAndVisible()
 		
-        GMSServices.provideAPIKey("YOUR_API_KEY")
-        GMSPlacesClient.provideAPIKey("YOUR_API_KEY")
+        GMSServices.provideAPIKey("Your_Google_API")
+        GMSPlacesClient.provideAPIKey("Your_Google_API")
         
 		return true
 	}

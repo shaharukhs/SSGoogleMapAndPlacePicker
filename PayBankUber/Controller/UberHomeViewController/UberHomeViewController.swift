@@ -78,6 +78,12 @@ class UberHomeViewController: UIViewController, UIGestureRecognizerDelegate, UIT
         
         self.bonacinno.backgroundColor = UIColor.init(hexCode: self.cyanColor)
         self.addMapToCurrentView()
+        
+        
+        getDataFromJson(url: "https://jsonplaceholder.typicode.com/posts/1", completion: { response in
+            print("JSON :: ",response)
+            
+        })
 		// Do any additional setup after loading the view, typically from a nib.
 	}
 
@@ -230,6 +236,31 @@ class UberHomeViewController: UIViewController, UIGestureRecognizerDelegate, UIT
             }
         }
     }
+    
+    func getDataFromJson(url: String, completion: @escaping (_ success: [String : Any]) -> Void) {
+        let request = URLRequest(url: URL(string: url)!)
+        let task = URLSession.shared.dataTask(with: request) { Data, response, error in
+            
+            guard let data = Data, error == nil else {  // check for fundamental networking error
+                
+                print("error=\(String(describing: error))")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {  // check for http errors
+                
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print(response!)
+                return
+                
+            }
+            
+            let responseString  = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String : Any]
+            completion(responseString)
+        }
+        task.resume()
+    }
+    
     
     //MARK: - TextField delegates
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
