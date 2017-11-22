@@ -10,7 +10,6 @@
 		6FD4233E34CB9ADC7C21A99E /* Pods_GoogleMapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5C98CE54D899F1B244A577 /* Pods_GoogleMapDemo.framework */; };
 		C2D84A9E1FAAEA6800F488E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D84A9D1FAAEA6800F488E2 /* AppDelegate.swift */; };
 		C2D84AA01FAAEA6800F488E2 /* UberHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D84A9F1FAAEA6800F488E2 /* UberHomeViewController.swift */; };
-		C2D84AA61FAAEA6800F488E2 /* PayBankUber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2D84AA41FAAEA6800F488E2 /* PayBankUber.xcdatamodeld */; };
 		C2D84AA81FAAEA6800F488E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D84AA71FAAEA6800F488E2 /* Assets.xcassets */; };
 		C2D84AAB1FAAEA6800F488E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D84AA91FAAEA6800F488E2 /* LaunchScreen.storyboard */; };
 		C2D84AB31FAAEAD900F488E2 /* UberHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D84AB21FAAEAD900F488E2 /* UberHomeViewController.xib */; };
@@ -19,6 +18,7 @@
 		F25493DB1FAC6923003D6973 /* PlacePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25493D91FAC6923003D6973 /* PlacePickerViewController.xib */; };
 		F25493DF1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25493DD1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift */; };
 		F25493E01FAC6DE9003D6973 /* PlacePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25493DE1FAC6DE9003D6973 /* PlacePickerTableViewCell.xib */; };
+		F2DD06851FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2DD06821FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,6 @@
 		C2D84A9A1FAAEA6800F488E2 /* GoogleMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D84A9D1FAAEA6800F488E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D84A9F1FAAEA6800F488E2 /* UberHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberHomeViewController.swift; sourceTree = "<group>"; };
-		C2D84AA51FAAEA6800F488E2 /* PayBankUber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayBankUber.xcdatamodel; sourceTree = "<group>"; };
 		C2D84AA71FAAEA6800F488E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D84AAA1FAAEA6800F488E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D84AB21FAAEAD900F488E2 /* UberHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UberHomeViewController.xib; sourceTree = "<group>"; };
@@ -37,6 +36,8 @@
 		F25493D91FAC6923003D6973 /* PlacePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacePickerViewController.xib; sourceTree = "<group>"; };
 		F25493DD1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacePickerTableViewCell.swift; sourceTree = "<group>"; };
 		F25493DE1FAC6DE9003D6973 /* PlacePickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlacePickerTableViewCell.xib; sourceTree = "<group>"; };
+		F2DD06831FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMapDemo.xcdatamodel; sourceTree = "<group>"; };
+		F2DD06841FC5BB7D00E23A10 /* PayBankUber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayBankUber.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +154,7 @@
 		C2D84ABA1FAAF4DC00F488E2 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				C2D84AA41FAAEA6800F488E2 /* PayBankUber.xcdatamodeld */,
+				F2DD06821FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -323,7 +324,7 @@
 				F25493DA1FAC6923003D6973 /* PlacePickerViewController.swift in Sources */,
 				C2D84AA01FAAEA6800F488E2 /* UberHomeViewController.swift in Sources */,
 				C2D84A9E1FAAEA6800F488E2 /* AppDelegate.swift in Sources */,
-				C2D84AA61FAAEA6800F488E2 /* PayBankUber.xcdatamodeld in Sources */,
+				F2DD06851FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodeld in Sources */,
 				F25493DF1FAC6DE9003D6973 /* PlacePickerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,13 +508,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C2D84AA41FAAEA6800F488E2 /* PayBankUber.xcdatamodeld */ = {
+		F2DD06821FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C2D84AA51FAAEA6800F488E2 /* PayBankUber.xcdatamodel */,
+				F2DD06831FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodel */,
+				F2DD06841FC5BB7D00E23A10 /* PayBankUber.xcdatamodel */,
 			);
-			currentVersion = C2D84AA51FAAEA6800F488E2 /* PayBankUber.xcdatamodel */;
-			path = PayBankUber.xcdatamodeld;
+			currentVersion = F2DD06831FC5BB7D00E23A10 /* GoogleMapDemo.xcdatamodel */;
+			path = GoogleMapDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
